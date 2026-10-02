@@ -1,13 +1,13 @@
 <script setup lang="ts">
-import { Link } from "@inertiajs/vue3";
-import { ref } from "vue";
-import NavbarMobile from "./NavbarMobile.vue"; // Pastikan path import sesuai dengan folder Anda
+import { Link } from '@inertiajs/vue3';
+import { ref } from 'vue';
+import NavbarMobile from './NavbarMobile.vue'; // Pastikan path import sesuai dengan folder Anda
 
 const isMenuOpen = ref(false);
 </script>
 
 <template>
-    <header class="sticky top-0 z-50 bg-white shadow-sm relative">
+    <header class="relative sticky top-0 z-50 bg-white shadow-sm">
         <!-- Top Bar -->
         <div class="bg-brand text-white">
             <div
@@ -22,7 +22,7 @@ const isMenuOpen = ref(false);
                     href="https://www.instagram.com/ilyasinstitut/"
                     target="_blank"
                     rel="noopener noreferrer"
-                    class="hover:text-white/80 transition-colors"
+                    class="transition-colors hover:text-white/80"
                 >
                     @ilyasinstitut
                 </a>
@@ -58,10 +58,10 @@ const isMenuOpen = ref(false);
                 <!-- Desktop Menu (Dibiarkan persis seperti referensi Anda) -->
                 <div class="hidden items-center gap-8 lg:flex">
                     <!-- Dropdown Tentang (Desktop) -->
-                    <div class="relative group">
+                    <div class="group relative">
                         <button
                             type="button"
-                            class="flex items-center gap-1 text-sm font-medium text-brand-ink group-hover:text-brand py-2"
+                            class="flex items-center gap-1 py-2 text-sm font-medium text-brand-ink group-hover:text-brand"
                         >
                             Tentang
                             <svg
@@ -79,39 +79,39 @@ const isMenuOpen = ref(false);
                             </svg>
                         </button>
                         <div
-                            class="absolute left-0 top-full pt-4 w-64 invisible opacity-0 translate-y-2 group-hover:visible group-hover:opacity-100 group-hover:translate-y-0 z-50 transition-all duration-300"
+                            class="invisible absolute top-full left-0 z-50 w-64 translate-y-2 pt-4 opacity-0 transition-all duration-300 group-hover:visible group-hover:translate-y-0 group-hover:opacity-100"
                         >
                             <div
-                                class="border-t-[3px] border-blue-600 bg-white py-2 shadow-lg rounded-b-md"
+                                class="rounded-b-md border-t-[3px] border-blue-600 bg-white py-2 shadow-lg"
                             >
                                 <Link
                                     href="/tentang/visi-misi"
-                                    class="block px-5 py-3 text-sm font-medium text-gray-700 hover:bg-gray-50 hover:text-brand transition-colors"
+                                    class="block px-5 py-3 text-sm font-medium text-gray-700 transition-colors hover:bg-gray-50 hover:text-brand"
                                     >VISI MISI</Link
                                 >
                                 <Link
                                     href="/tentang/profile-pimpinan"
-                                    class="block px-5 py-3 text-sm font-medium text-gray-700 hover:bg-gray-50 hover:text-brand transition-colors"
+                                    class="block px-5 py-3 text-sm font-medium text-gray-700 transition-colors hover:bg-gray-50 hover:text-brand"
                                     >PROFILE PIMPINAN</Link
                                 >
                                 <Link
                                     href="/tentang/sejarah"
-                                    class="block px-5 py-3 text-sm font-medium text-gray-700 hover:bg-gray-50 hover:text-brand transition-colors"
+                                    class="block px-5 py-3 text-sm font-medium text-gray-700 transition-colors hover:bg-gray-50 hover:text-brand"
                                     >SEJARAH</Link
                                 >
                                 <Link
                                     href="/tentang/arti-lambang"
-                                    class="block px-5 py-3 text-sm font-medium text-gray-700 hover:bg-gray-50 hover:text-brand transition-colors"
+                                    class="block px-5 py-3 text-sm font-medium text-gray-700 transition-colors hover:bg-gray-50 hover:text-brand"
                                     >ARTI LAMBANG</Link
                                 >
                                 <Link
                                     href="/tentang/mars"
-                                    class="block px-5 py-3 text-sm font-medium text-gray-700 hover:bg-gray-50 hover:text-brand transition-colors"
+                                    class="block px-5 py-3 text-sm font-medium text-gray-700 transition-colors hover:bg-gray-50 hover:text-brand"
                                     >MARS</Link
                                 >
                                 <Link
                                     href="/tentang/dosen-staff"
-                                    class="block px-5 py-3 text-sm font-medium text-gray-700 hover:bg-gray-50 hover:text-brand transition-colors"
+                                    class="block px-5 py-3 text-sm font-medium text-gray-700 transition-colors hover:bg-gray-50 hover:text-brand"
                                     >DOSEN & STAFF</Link
                                 >
                             </div>
@@ -119,10 +119,10 @@ const isMenuOpen = ref(false);
                     </div>
 
                     <!-- Dropdown Program Studi (Desktop) -->
-                    <div class="relative group">
+                    <div class="group relative">
                         <button
                             type="button"
-                            class="flex items-center gap-1 text-sm font-medium text-brand-ink group-hover:text-brand py-2"
+                            class="flex items-center gap-1 py-2 text-sm font-medium text-brand-ink group-hover:text-brand"
                         >
                             Program Studi
                             <svg
@@ -140,24 +140,24 @@ const isMenuOpen = ref(false);
                             </svg>
                         </button>
                         <div
-                            class="absolute left-0 top-full pt-4 w-48 invisible opacity-0 translate-y-2 group-hover:visible group-hover:opacity-100 group-hover:translate-y-0 z-50 transition-all duration-300"
+                            class="invisible absolute top-full left-0 z-50 w-48 translate-y-2 pt-4 opacity-0 transition-all duration-300 group-hover:visible group-hover:translate-y-0 group-hover:opacity-100"
                         >
                             <div
-                                class="border-t-[3px] border-blue-600 bg-white py-2 shadow-lg rounded-b-md"
+                                class="rounded-b-md border-t-[3px] border-blue-600 bg-white py-2 shadow-lg"
                             >
                                 <Link
                                     href="/program-studi/pai"
-                                    class="block px-5 py-3 text-sm font-medium text-gray-700 hover:bg-gray-50 hover:text-brand transition-colors"
+                                    class="block px-5 py-3 text-sm font-medium text-gray-700 transition-colors hover:bg-gray-50 hover:text-brand"
                                     >PAI</Link
                                 >
                                 <Link
                                     href="/program-studi/iat"
-                                    class="block px-5 py-3 text-sm font-medium text-gray-700 hover:bg-gray-50 hover:text-brand transition-colors"
+                                    class="block px-5 py-3 text-sm font-medium text-gray-700 transition-colors hover:bg-gray-50 hover:text-brand"
                                     >IAT</Link
                                 >
                                 <Link
                                     href="/program-studi/pgmi"
-                                    class="block px-5 py-3 text-sm font-medium text-gray-700 hover:bg-gray-50 hover:text-brand transition-colors"
+                                    class="block px-5 py-3 text-sm font-medium text-gray-700 transition-colors hover:bg-gray-50 hover:text-brand"
                                     >PGMI</Link
                                 >
                             </div>
@@ -166,21 +166,21 @@ const isMenuOpen = ref(false);
 
                     <Link
                         href="/penerimaan"
-                        class="text-sm font-medium text-brand-ink hover:text-brand transition-colors"
+                        class="text-sm font-medium text-brand-ink transition-colors hover:text-brand"
                     >
                         Penerimaan
                     </Link>
 
                     <a
                         href="/beasiswa"
-                        class="text-sm font-medium text-brand-ink hover:text-brand transition-colors"
+                        class="text-sm font-medium text-brand-ink transition-colors hover:text-brand"
                     >
                         Beasiswa
                     </a>
 
                     <a
                         href="https://forms.gle/NG7eEC3uKNhjEpkD8"
-                        class="rounded-lg bg-brand px-6 py-2.5 text-sm font-bold text-white hover:bg-brand-hover shadow-sm transition-all"
+                        class="rounded-lg bg-brand px-6 py-2.5 text-sm font-bold text-white shadow-sm transition-all hover:bg-brand-hover"
                     >
                         Info Pendaftaran
                     </a>
@@ -189,7 +189,7 @@ const isMenuOpen = ref(false);
                 <!-- Tombol Hamburger / Close (Mobile) menggunakan SVG profesional -->
                 <button
                     type="button"
-                    class="rounded-lg p-2 text-brand-ink hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-brand lg:hidden transition-colors"
+                    class="rounded-lg p-2 text-brand-ink transition-colors hover:bg-gray-100 focus:ring-2 focus:ring-brand focus:outline-none lg:hidden"
                     @click="isMenuOpen = !isMenuOpen"
                     aria-label="Toggle menu"
                 >

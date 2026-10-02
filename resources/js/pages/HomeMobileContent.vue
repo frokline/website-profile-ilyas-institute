@@ -1,6 +1,6 @@
 <script setup lang="ts">
-import { Link } from "@inertiajs/vue3";
-import { programs } from "../data/programs";
+import { Link } from '@inertiajs/vue3';
+import { programs } from '../data/programs';
 </script>
 
 <template>
@@ -14,13 +14,13 @@ import { programs } from "../data/programs";
                 <div class="mb-2 flex items-center gap-2">
                     <span class="h-0.5 w-6 bg-[#C9A227]"></span>
                     <p
-                        class="text-[10px] font-bold uppercase tracking-[0.2em] text-[#C9A227]"
+                        class="text-[10px] font-bold tracking-[0.2em] text-[#C9A227] uppercase"
                     >
                         PROGRAM STUDI
                     </p>
                 </div>
                 <h2
-                    class="max-w-[340px] text-2xl font-bold leading-tight tracking-tight text-brand-ink"
+                    class="max-w-[340px] text-2xl leading-tight font-bold tracking-tight text-brand-ink"
                 >
                     Pilih Program Studi yang Sesuai Tujuanmu
                 </h2>
@@ -43,9 +43,9 @@ import { programs } from "../data/programs";
                             class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"
                         ></div>
                     </div>
-                    <div class="relative p-6 pt-0 transform -translate-y-6">
+                    <div class="relative -translate-y-6 transform p-6 pt-0">
                         <div
-                            class="flex h-12 w-12 items-center justify-center rounded-2xl border-4 border-white bg-brand text-white shadow-md mb-3"
+                            class="mb-3 flex h-12 w-12 items-center justify-center rounded-2xl border-4 border-white bg-brand text-white shadow-md"
                         >
                             <svg
                                 class="h-5 w-5"
@@ -62,7 +62,7 @@ import { programs } from "../data/programs";
                             </svg>
                         </div>
                         <h3
-                            class="text-lg font-bold leading-snug text-brand-ink"
+                            class="text-lg leading-snug font-bold text-brand-ink"
                         >
                             {{ program.name }}
                         </h3>
@@ -91,13 +91,13 @@ import { programs } from "../data/programs";
                 <div class="mb-2 flex items-center gap-2">
                     <span class="h-0.5 w-6 bg-[#C9A227]"></span>
                     <p
-                        class="text-[10px] font-bold uppercase tracking-[0.2em] text-[#C9A227]"
+                        class="text-[10px] font-bold tracking-[0.2em] text-[#C9A227] uppercase"
                     >
                         KENAPA ILYAS?
                     </p>
                 </div>
                 <h2
-                    class="text-2xl font-bold leading-tight tracking-tight text-brand-ink"
+                    class="text-2xl leading-tight font-bold tracking-tight text-brand-ink"
                 >
                     Keunggulan Ilyas Institut
                 </h2>
@@ -115,12 +115,12 @@ import { programs } from "../data/programs";
                     <div
                         class="absolute inset-0 bg-gradient-to-t from-brand/90 via-brand/20 to-transparent"
                     ></div>
-                    <div class="absolute bottom-5 left-5 right-5">
+                    <div class="absolute right-5 bottom-5 left-5">
                         <div
                             class="inline-flex rounded-full bg-white/95 px-4 py-1.5 shadow-md backdrop-blur"
                         >
                             <p
-                                class="text-[10px] font-bold uppercase tracking-widest text-brand"
+                                class="text-[10px] font-bold tracking-widest text-brand uppercase"
                             >
                                 KELAS HYBRID
                             </p>
@@ -142,7 +142,7 @@ import { programs } from "../data/programs";
                 >
                     <div class="flex items-start gap-4">
                         <div
-                            class="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-brand/10 text-brand font-bold"
+                            class="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-brand/10 font-bold text-brand"
                         >
                             01
                         </div>
@@ -164,7 +164,7 @@ import { programs } from "../data/programs";
                 >
                     <div class="flex items-start gap-4">
                         <div
-                            class="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-brand/10 text-brand font-bold"
+                            class="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-brand/10 font-bold text-brand"
                         >
                             02
                         </div>
@@ -186,7 +186,7 @@ import { programs } from "../data/programs";
                 >
                     <div class="flex items-start gap-4">
                         <div
-                            class="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-brand/10 text-brand font-bold"
+                            class="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-brand/10 font-bold text-brand"
                         >
                             03
                         </div>
@@ -212,13 +212,13 @@ import { programs } from "../data/programs";
                 <div class="mb-2 flex items-center gap-2">
                     <span class="h-0.5 w-6 bg-[#C9A227]"></span>
                     <p
-                        class="text-[10px] font-bold uppercase tracking-[0.2em] text-[#C9A227]"
+                        class="text-[10px] font-bold tracking-[0.2em] text-[#C9A227] uppercase"
                     >
                         SISTEM KULIAH
                     </p>
                 </div>
                 <h2
-                    class="text-2xl font-bold leading-tight tracking-tight text-brand-ink"
+                    class="text-2xl leading-tight font-bold tracking-tight text-brand-ink"
                 >
                     Alur Perkuliahan
                 </h2>
@@ -240,7 +240,7 @@ import { programs } from "../data/programs";
                             </h3>
                         </div>
                         <div
-                            class="absolute left-[17px] top-9 h-[calc(100%-20px)] w-[2px] bg-brand/20"
+                            class="absolute top-9 left-[17px] h-[calc(100%-20px)] w-[2px] bg-brand/20"
                         ></div>
                     </div>
                     <div class="relative flex gap-4 pb-8">
@@ -255,7 +255,7 @@ import { programs } from "../data/programs";
                             </h3>
                         </div>
                         <div
-                            class="absolute left-[17px] top-9 h-[calc(100%-20px)] w-[2px] bg-brand/20"
+                            class="absolute top-9 left-[17px] h-[calc(100%-20px)] w-[2px] bg-brand/20"
                         ></div>
                     </div>
                     <div class="relative flex gap-4 pb-8">
@@ -270,7 +270,7 @@ import { programs } from "../data/programs";
                             </h3>
                         </div>
                         <div
-                            class="absolute left-[17px] top-9 h-[calc(100%-20px)] w-[2px] bg-brand/20"
+                            class="absolute top-9 left-[17px] h-[calc(100%-20px)] w-[2px] bg-brand/20"
                         ></div>
                     </div>
                     <div class="relative flex gap-4">
@@ -292,11 +292,11 @@ import { programs } from "../data/programs";
             <div
                 class="overflow-hidden rounded-3xl border border-gray-100 bg-gray-50 shadow-md"
             >
-                <div class="border-b border-gray-200 px-5 py-4 bg-white">
+                <div class="border-b border-gray-200 bg-white px-5 py-4">
                     <div class="flex items-center justify-between gap-3">
                         <div>
                             <p
-                                class="text-[10px] font-bold uppercase tracking-[0.18em] text-[#C9A227]"
+                                class="text-[10px] font-bold tracking-[0.18em] text-[#C9A227] uppercase"
                             >
                                 PLATFORM AKADEMIK
                             </p>
@@ -345,28 +345,28 @@ import { programs } from "../data/programs";
 
                 <div class="p-5">
                     <h4
-                        class="text-[11px] font-bold uppercase tracking-wider text-gray-500 mb-3"
+                        class="mb-3 text-[11px] font-bold tracking-wider text-gray-500 uppercase"
                     >
                         Fitur Dashboard
                     </h4>
                     <div class="grid grid-cols-2 gap-3">
                         <div
-                            class="flex items-center gap-2 rounded-xl bg-white px-3 py-2.5 text-xs font-semibold text-gray-700 shadow-sm border border-gray-100"
+                            class="flex items-center gap-2 rounded-xl border border-gray-100 bg-white px-3 py-2.5 text-xs font-semibold text-gray-700 shadow-sm"
                         >
                             <span class="text-brand">✓</span> Jadwal Kuliah
                         </div>
                         <div
-                            class="flex items-center gap-2 rounded-xl bg-white px-3 py-2.5 text-xs font-semibold text-gray-700 shadow-sm border border-gray-100"
+                            class="flex items-center gap-2 rounded-xl border border-gray-100 bg-white px-3 py-2.5 text-xs font-semibold text-gray-700 shadow-sm"
                         >
                             <span class="text-brand">✓</span> Materi & Tugas
                         </div>
                         <div
-                            class="flex items-center gap-2 rounded-xl bg-white px-3 py-2.5 text-xs font-semibold text-gray-700 shadow-sm border border-gray-100"
+                            class="flex items-center gap-2 rounded-xl border border-gray-100 bg-white px-3 py-2.5 text-xs font-semibold text-gray-700 shadow-sm"
                         >
                             <span class="text-brand">✓</span> Ujian Online
                         </div>
                         <div
-                            class="flex items-center gap-2 rounded-xl bg-white px-3 py-2.5 text-xs font-semibold text-gray-700 shadow-sm border border-gray-100"
+                            class="flex items-center gap-2 rounded-xl border border-gray-100 bg-white px-3 py-2.5 text-xs font-semibold text-gray-700 shadow-sm"
                         >
                             <span class="text-brand">✓</span> Presensi
                         </div>
@@ -376,7 +376,7 @@ import { programs } from "../data/programs";
 
             <!-- Scholarship Showcase -->
             <div
-                class="mt-8 overflow-hidden rounded-3xl bg-brand text-white shadow-lg relative"
+                class="relative mt-8 overflow-hidden rounded-3xl bg-brand text-white shadow-lg"
             >
                 <div
                     class="relative min-h-[240px] overflow-hidden bg-[#064E3B]"
@@ -387,19 +387,19 @@ import { programs } from "../data/programs";
                     <img
                         src="/images/remove.png"
                         alt="Beasiswa"
-                        class="absolute bottom-0 right-0 h-[220px] w-[65%] object-contain object-right-bottom"
+                        class="absolute right-0 bottom-0 h-[220px] w-[65%] object-contain object-right-bottom"
                     />
 
                     <div
                         class="relative z-10 flex min-h-[240px] w-[70%] flex-col justify-center px-6 py-6"
                     >
                         <div
-                            class="mb-3 inline-flex w-fit rounded-full bg-[#C9A227] px-3 py-1.5 text-[10px] font-bold uppercase tracking-wider text-white shadow-sm"
+                            class="mb-3 inline-flex w-fit rounded-full bg-[#C9A227] px-3 py-1.5 text-[10px] font-bold tracking-wider text-white uppercase shadow-sm"
                         >
                             BEASISWA
                         </div>
                         <h3
-                            class="text-xl font-bold leading-tight tracking-tight"
+                            class="text-xl leading-tight font-bold tracking-tight"
                         >
                             Kuliah dengan Beasiswa
                         </h3>
@@ -412,7 +412,7 @@ import { programs } from "../data/programs";
                 <div class="border-t border-white/10 bg-[#043326] p-4">
                     <a
                         href="#beasiswa"
-                        class="block w-full rounded-xl bg-[#C9A227] px-4 py-3.5 text-center text-sm font-bold text-white shadow-md active:bg-[#b08d20] transition"
+                        class="block w-full rounded-xl bg-[#C9A227] px-4 py-3.5 text-center text-sm font-bold text-white shadow-md transition active:bg-[#b08d20]"
                     >
                         Lihat Persyaratan →
                     </a>
@@ -430,13 +430,13 @@ import { programs } from "../data/programs";
                             class="h-0.5 w-8 rounded-full bg-[#C9A227]"
                         ></span>
                         <p
-                            class="text-xs font-bold uppercase tracking-[0.25em] text-[#C9A227]"
+                            class="text-xs font-bold tracking-[0.25em] text-[#C9A227] uppercase"
                         >
                             Pengajar
                         </p>
                     </div>
                     <h2
-                        class="text-3xl font-extrabold leading-tight text-[#064E3B] md:text-4xl"
+                        class="text-3xl leading-tight font-extrabold text-[#064E3B] md:text-4xl"
                     >
                         Dosen Pengampu
                     </h2>
@@ -459,12 +459,12 @@ import { programs } from "../data/programs";
                         </div>
                         <div class="flex flex-1 flex-col justify-center">
                             <p
-                                class="mb-1 text-[11px] font-bold uppercase tracking-wider text-[#C9A227]"
+                                class="mb-1 text-[11px] font-bold tracking-wider text-[#C9A227] uppercase"
                             >
                                 Dosen Pengampu
                             </p>
                             <h3
-                                class="text-[15px] font-bold leading-snug text-[#0A2540]"
+                                class="text-[15px] leading-snug font-bold text-[#0A2540]"
                             >
                                 Hilya Adilah., S.Psi., M.Pd.
                             </h3>
@@ -486,12 +486,12 @@ import { programs } from "../data/programs";
                         </div>
                         <div class="flex flex-1 flex-col justify-center">
                             <p
-                                class="mb-1 text-[11px] font-bold uppercase tracking-wider text-[#C9A227]"
+                                class="mb-1 text-[11px] font-bold tracking-wider text-[#C9A227] uppercase"
                             >
                                 Dosen Pengampu
                             </p>
                             <h3
-                                class="text-[15px] font-bold leading-snug text-[#0A2540]"
+                                class="text-[15px] leading-snug font-bold text-[#0A2540]"
                             >
                                 KH. Nasyirul Lubab., Lc., M.A.
                             </h3>
@@ -513,12 +513,12 @@ import { programs } from "../data/programs";
                         </div>
                         <div class="flex flex-1 flex-col justify-center">
                             <p
-                                class="mb-1 text-[11px] font-bold uppercase tracking-wider text-[#C9A227]"
+                                class="mb-1 text-[11px] font-bold tracking-wider text-[#C9A227] uppercase"
                             >
                                 Dosen Pengampu
                             </p>
                             <h3
-                                class="text-[15px] font-bold leading-snug text-[#0A2540]"
+                                class="text-[15px] leading-snug font-bold text-[#0A2540]"
                             >
                                 H. Muhammad Aini., S.Pd.I, M.M.
                             </h3>
@@ -527,7 +527,7 @@ import { programs } from "../data/programs";
                 </div>
 
                 <!-- Tombol Call to Action -->
-                <div class="mt-10 flex md:justify-start justify-center">
+                <div class="mt-10 flex justify-center md:justify-start">
                     <a
                         href="/tentang/dosen-staff"
                         class="inline-flex items-center justify-center gap-2 rounded-full border-2 border-[#064E3B] bg-transparent px-8 py-3 text-sm font-bold text-[#064E3B] transition-all duration-300 hover:bg-[#064E3B] hover:text-white focus:ring-4 focus:ring-[#064E3B]/20"
@@ -552,7 +552,7 @@ import { programs } from "../data/programs";
 
         <!-- 5. KAMPUS MERDEKA & LOKASI -->
         <section
-            class="bg-white px-5 py-12 rounded-t-[32px] -mt-6 relative z-10 shadow-[0_-4px_20px_rgb(0,0,0,0.02)]"
+            class="relative z-10 -mt-6 rounded-t-[32px] bg-white px-5 py-12 shadow-[0_-4px_20px_rgb(0,0,0,0.02)]"
         >
             <div class="mb-10 grid gap-4">
                 <div
@@ -607,12 +607,12 @@ import { programs } from "../data/programs";
                 <div class="mb-2 flex items-center gap-2">
                     <span class="h-0.5 w-6 bg-[#C9A227]"></span>
                     <p
-                        class="text-[10px] font-bold uppercase tracking-[0.2em] text-[#C9A227]"
+                        class="text-[10px] font-bold tracking-[0.2em] text-[#C9A227] uppercase"
                     >
                         INFORMASI
                     </p>
                 </div>
-                <h2 class="text-2xl font-bold leading-tight text-brand-ink">
+                <h2 class="text-2xl leading-tight font-bold text-brand-ink">
                     Lokasi Kampus
                 </h2>
             </div>
@@ -632,7 +632,7 @@ import { programs } from "../data/programs";
                     <a
                         href="https://maps.app.goo.gl/HTtzYQA9D6JvFwCGA"
                         target="_blank"
-                        class="mt-4 flex w-full items-center justify-center rounded-xl bg-brand px-4 py-3 text-sm font-bold text-white shadow-sm active:scale-95 transition"
+                        class="mt-4 flex w-full items-center justify-center rounded-xl bg-brand px-4 py-3 text-sm font-bold text-white shadow-sm transition active:scale-95"
                     >
                         Buka di Maps
                     </a>

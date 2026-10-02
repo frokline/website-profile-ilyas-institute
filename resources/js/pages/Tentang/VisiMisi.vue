@@ -1,6 +1,6 @@
 <script setup lang="ts">
-import { Head } from "@inertiajs/vue3";
-import PublicLayout from "@/layouts/PublicLayout.vue";
+import { Head } from '@inertiajs/vue3';
+import PublicLayout from '@/layouts/PublicLayout.vue';
 </script>
 
 <template>
@@ -9,7 +9,7 @@ import PublicLayout from "@/layouts/PublicLayout.vue";
     <PublicLayout>
         <!-- 1. HERO SECTION -->
         <section
-            class="relative overflow-hidden flex items-center justify-center pt-32 pb-24 lg:pt-48 lg:pb-36"
+            class="relative flex items-center justify-center overflow-hidden pt-32 pb-24 lg:pt-48 lg:pb-36"
         >
             <!-- Gambar Background -->
             <div class="absolute inset-0 z-0">
@@ -26,9 +26,9 @@ import PublicLayout from "@/layouts/PublicLayout.vue";
 
             <!-- Teks Judul -->
             <div
-                class="relative z-10 mx-auto max-w-7xl px-6 sm:px-8 lg:px-12 text-center"
+                class="relative z-10 mx-auto max-w-7xl px-6 text-center sm:px-8 lg:px-12"
             >
-                <div class="inline-flex items-center gap-2 mb-4">
+                <div class="mb-4 inline-flex items-center gap-2">
                     <span class="h-0.5 w-8 bg-[#C9A227]"></span>
                     <span
                         class="text-xs font-bold tracking-[0.2em] text-[#C9A227] uppercase drop-shadow-md"
@@ -37,12 +37,12 @@ import PublicLayout from "@/layouts/PublicLayout.vue";
                     <span class="h-0.5 w-8 bg-[#C9A227]"></span>
                 </div>
                 <h1
-                    class="text-4xl font-bold tracking-tight text-white sm:text-5xl lg:text-6xl drop-shadow-xl"
+                    class="text-4xl font-bold tracking-tight text-white drop-shadow-xl sm:text-5xl lg:text-6xl"
                 >
                     Visi, Misi, dan Tujuan
                 </h1>
                 <p
-                    class="mt-6 mx-auto max-w-2xl text-lg text-white/90 leading-relaxed drop-shadow-md"
+                    class="mx-auto mt-6 max-w-2xl text-lg leading-relaxed text-white/90 drop-shadow-md"
                 >
                     Landasan arah pengembangan Ilyas institut dalam
                     menyelenggarakan pendidikan online ilmu syar'i serta
@@ -54,19 +54,19 @@ import PublicLayout from "@/layouts/PublicLayout.vue";
 
         <!-- 2. KONTEN HALAMAN -->
         <section class="bg-white py-16 sm:py-24">
-            <div class="mx-auto max-w-5xl px-6 sm:px-8 space-y-20">
+            <div class="mx-auto max-w-5xl space-y-20 px-6 sm:px-8">
                 <!-- A. RUMUSAN VISI -->
                 <div>
                     <h2
-                        class="text-2xl sm:text-3xl font-bold text-brand-ink border-l-4 border-[#C9A227] pl-5 mb-8"
+                        class="mb-8 border-l-4 border-[#C9A227] pl-5 text-2xl font-bold text-brand-ink sm:text-3xl"
                     >
                         Rumusan Visi Ilyas institut
                     </h2>
                     <div
-                        class="space-y-6 text-base text-gray-700 leading-relaxed text-justify"
+                        class="space-y-6 text-justify text-base leading-relaxed text-gray-700"
                     >
                         <blockquote
-                            class="p-6 bg-brand-surface rounded-xl border border-brand/10 text-xl font-bold text-brand-ink text-center leading-snug"
+                            class="rounded-xl border border-brand/10 bg-brand-surface p-6 text-center text-xl leading-snug font-bold text-brand-ink"
                         >
                             “Menjadi Lembaga Pendidikan Online Ilmu Syar'i
                             Terpercaya Dalam Membentuk Generasi Sarjana Yang
@@ -98,15 +98,15 @@ import PublicLayout from "@/layouts/PublicLayout.vue";
                 <!-- B. PENJABARAN VISI -->
                 <div>
                     <h2
-                        class="text-2xl sm:text-3xl font-bold text-brand-ink border-l-4 border-[#C9A227] pl-5 mb-8"
+                        class="mb-8 border-l-4 border-[#C9A227] pl-5 text-2xl font-bold text-brand-ink sm:text-3xl"
                     >
                         Penjabaran Visi
                     </h2>
                     <div
-                        class="space-y-8 text-base text-gray-700 leading-relaxed text-justify"
+                        class="space-y-8 text-justify text-base leading-relaxed text-gray-700"
                     >
                         <div>
-                            <h3 class="text-lg font-bold text-brand-ink mb-2">
+                            <h3 class="mb-2 text-lg font-bold text-brand-ink">
                                 1. Lembaga Pendidikan Online
                             </h3>
                             <p>
@@ -124,7 +124,7 @@ import PublicLayout from "@/layouts/PublicLayout.vue";
                             </p>
                         </div>
                         <div>
-                            <h3 class="text-lg font-bold text-brand-ink mb-2">
+                            <h3 class="mb-2 text-lg font-bold text-brand-ink">
                                 2. Ilmu Syar'i
                             </h3>
                             <p>
@@ -141,7 +141,7 @@ import PublicLayout from "@/layouts/PublicLayout.vue";
                             </p>
                         </div>
                         <div>
-                            <h3 class="text-lg font-bold text-brand-ink mb-2">
+                            <h3 class="mb-2 text-lg font-bold text-brand-ink">
                                 3. Terpercaya
                             </h3>
                             <p>
@@ -160,7 +160,7 @@ import PublicLayout from "@/layouts/PublicLayout.vue";
                             </p>
                         </div>
                         <div>
-                            <h3 class="text-lg font-bold text-brand-ink mb-2">
+                            <h3 class="mb-2 text-lg font-bold text-brand-ink">
                                 4. Generasi Sarjana yang Beriman, Berilmu,
                                 Beramal
                             </h3>
@@ -178,7 +178,7 @@ import PublicLayout from "@/layouts/PublicLayout.vue";
                             </p>
                         </div>
                         <div>
-                            <h3 class="text-lg font-bold text-brand-ink mb-2">
+                            <h3 class="mb-2 text-lg font-bold text-brand-ink">
                                 5. Berdakwah dengan Faham Ahlussunnah Wal Jamaah
                             </h3>
                             <p>
@@ -197,12 +197,12 @@ import PublicLayout from "@/layouts/PublicLayout.vue";
                 <!-- C. RUMUSAN MISI -->
                 <div>
                     <h2
-                        class="text-2xl sm:text-3xl font-bold text-brand-ink border-l-4 border-[#C9A227] pl-5 mb-8"
+                        class="mb-8 border-l-4 border-[#C9A227] pl-5 text-2xl font-bold text-brand-ink sm:text-3xl"
                     >
                         Rumusan Misi Ilyas institut
                     </h2>
                     <div
-                        class="space-y-6 text-base text-gray-700 leading-relaxed text-justify"
+                        class="space-y-6 text-justify text-base leading-relaxed text-gray-700"
                     >
                         <p>
                             Untuk mewujudkan visi tersebut, Ilyas institut
@@ -213,7 +213,7 @@ import PublicLayout from "@/layouts/PublicLayout.vue";
                             institut.
                         </p>
                         <ol
-                            class="list-decimal pl-6 space-y-4 font-bold text-brand-ink text-lg"
+                            class="list-decimal space-y-4 pl-6 text-lg font-bold text-brand-ink"
                         >
                             <li>
                                 Menyediakan Pendidikan Online Ilmu Syar'i Yang
@@ -237,15 +237,15 @@ import PublicLayout from "@/layouts/PublicLayout.vue";
                 <!-- D. PENJABARAN MISI -->
                 <div>
                     <h2
-                        class="text-2xl sm:text-3xl font-bold text-brand-ink border-l-4 border-[#C9A227] pl-5 mb-8"
+                        class="mb-8 border-l-4 border-[#C9A227] pl-5 text-2xl font-bold text-brand-ink sm:text-3xl"
                     >
                         Penjabaran Setiap Misi
                     </h2>
                     <div
-                        class="space-y-8 text-base text-gray-700 leading-relaxed text-justify"
+                        class="space-y-8 text-justify text-base leading-relaxed text-gray-700"
                     >
                         <div>
-                            <h3 class="text-lg font-bold text-brand-ink mb-2">
+                            <h3 class="mb-2 text-lg font-bold text-brand-ink">
                                 Misi 1 — Menyediakan Pendidikan Online Ilmu
                                 Syar'i Yang Berkualitas
                             </h3>
@@ -265,7 +265,7 @@ import PublicLayout from "@/layouts/PublicLayout.vue";
                             </p>
                         </div>
                         <div>
-                            <h3 class="text-lg font-bold text-brand-ink mb-2">
+                            <h3 class="mb-2 text-lg font-bold text-brand-ink">
                                 Misi 2 — Mencetak Sarjana Yang Islami Dan
                                 Berakhlakul Karimah
                             </h3>
@@ -283,7 +283,7 @@ import PublicLayout from "@/layouts/PublicLayout.vue";
                             </p>
                         </div>
                         <div>
-                            <h3 class="text-lg font-bold text-brand-ink mb-2">
+                            <h3 class="mb-2 text-lg font-bold text-brand-ink">
                                 Misi 3 — Mencetak Sarjana Yang Menguasai Ilmu
                                 Syar'i Untuk diamalkan dan Di Dakwahkan
                             </h3>
@@ -300,7 +300,7 @@ import PublicLayout from "@/layouts/PublicLayout.vue";
                             </p>
                         </div>
                         <div>
-                            <h3 class="text-lg font-bold text-brand-ink mb-2">
+                            <h3 class="mb-2 text-lg font-bold text-brand-ink">
                                 Misi 4 — Berkontribusi Untuk Ummat dan Peradaban
                                 Islam
                             </h3>
@@ -325,12 +325,12 @@ import PublicLayout from "@/layouts/PublicLayout.vue";
                 <!-- E. TUJUAN -->
                 <div>
                     <h2
-                        class="text-2xl sm:text-3xl font-bold text-brand-ink border-l-4 border-[#C9A227] pl-5 mb-8"
+                        class="mb-8 border-l-4 border-[#C9A227] pl-5 text-2xl font-bold text-brand-ink sm:text-3xl"
                     >
                         Tujuan Ilyas institut
                     </h2>
                     <div
-                        class="space-y-6 text-base text-gray-700 leading-relaxed text-justify"
+                        class="space-y-6 text-justify text-base leading-relaxed text-gray-700"
                     >
                         <p>
                             Tujuan Ilyas institut merupakan penjabaran arah yang
@@ -339,7 +339,7 @@ import PublicLayout from "@/layouts/PublicLayout.vue";
                             pembentukan lulusan, penguatan dakwah, kontribusi
                             kepada masyarakat, serta pengembangan kelembagaan.
                         </p>
-                        <ol class="list-decimal pl-6 space-y-3">
+                        <ol class="list-decimal space-y-3 pl-6">
                             <li>
                                 Menyelenggarakan pendidikan online ilmu syar'i
                                 yang terstruktur, relevan, dan sesuai dengan
@@ -383,23 +383,23 @@ import PublicLayout from "@/layouts/PublicLayout.vue";
                 <!-- F. SASARAN PENGEMBANGAN -->
                 <div>
                     <h2
-                        class="text-2xl sm:text-3xl font-bold text-brand-ink border-l-4 border-[#C9A227] pl-5 mb-8"
+                        class="mb-8 border-l-4 border-[#C9A227] pl-5 text-2xl font-bold text-brand-ink sm:text-3xl"
                     >
                         Sasaran Pengembangan
                     </h2>
                     <div
-                        class="grid md:grid-cols-2 gap-8 text-base text-gray-700"
+                        class="grid gap-8 text-base text-gray-700 md:grid-cols-2"
                     >
                         <div
-                            class="bg-brand-surface p-6 rounded-xl border border-brand/5"
+                            class="rounded-xl border border-brand/5 bg-brand-surface p-6"
                         >
                             <h3
-                                class="text-lg font-bold text-brand-ink mb-4 pb-2 border-b border-[#C9A227]/30"
+                                class="mb-4 border-b border-[#C9A227]/30 pb-2 text-lg font-bold text-brand-ink"
                             >
                                 1. Bidang Pendidikan
                             </h3>
                             <ul
-                                class="list-disc pl-5 space-y-2 text-sm leading-relaxed"
+                                class="list-disc space-y-2 pl-5 text-sm leading-relaxed"
                             >
                                 <li>
                                     Penguatan penyelenggaraan pendidikan online
@@ -417,15 +417,15 @@ import PublicLayout from "@/layouts/PublicLayout.vue";
                             </ul>
                         </div>
                         <div
-                            class="bg-brand-surface p-6 rounded-xl border border-brand/5"
+                            class="rounded-xl border border-brand/5 bg-brand-surface p-6"
                         >
                             <h3
-                                class="text-lg font-bold text-brand-ink mb-4 pb-2 border-b border-[#C9A227]/30"
+                                class="mb-4 border-b border-[#C9A227]/30 pb-2 text-lg font-bold text-brand-ink"
                             >
                                 2. Mahasiswa dan Lulusan
                             </h3>
                             <ul
-                                class="list-disc pl-5 space-y-2 text-sm leading-relaxed"
+                                class="list-disc space-y-2 pl-5 text-sm leading-relaxed"
                             >
                                 <li>
                                     Penguatan pemahaman ilmu syar'i mahasiswa.
@@ -442,15 +442,15 @@ import PublicLayout from "@/layouts/PublicLayout.vue";
                             </ul>
                         </div>
                         <div
-                            class="bg-brand-surface p-6 rounded-xl border border-brand/5"
+                            class="rounded-xl border border-brand/5 bg-brand-surface p-6"
                         >
                             <h3
-                                class="text-lg font-bold text-brand-ink mb-4 pb-2 border-b border-[#C9A227]/30"
+                                class="mb-4 border-b border-[#C9A227]/30 pb-2 text-lg font-bold text-brand-ink"
                             >
                                 3. Keilmuan dan Dakwah
                             </h3>
                             <ul
-                                class="list-disc pl-5 space-y-2 text-sm leading-relaxed"
+                                class="list-disc space-y-2 pl-5 text-sm leading-relaxed"
                             >
                                 <li>
                                     Penguatan budaya belajar dan kajian
@@ -467,15 +467,15 @@ import PublicLayout from "@/layouts/PublicLayout.vue";
                             </ul>
                         </div>
                         <div
-                            class="bg-brand-surface p-6 rounded-xl border border-brand/5"
+                            class="rounded-xl border border-brand/5 bg-brand-surface p-6"
                         >
                             <h3
-                                class="text-lg font-bold text-brand-ink mb-4 pb-2 border-b border-[#C9A227]/30"
+                                class="mb-4 border-b border-[#C9A227]/30 pb-2 text-lg font-bold text-brand-ink"
                             >
                                 4. Kontribusi kepada Ummat
                             </h3>
                             <ul
-                                class="list-disc pl-5 space-y-2 text-sm leading-relaxed"
+                                class="list-disc space-y-2 pl-5 text-sm leading-relaxed"
                             >
                                 <li>
                                     Memperluas kemanfaatan pendidikan bagi
@@ -496,15 +496,15 @@ import PublicLayout from "@/layouts/PublicLayout.vue";
                             </ul>
                         </div>
                         <div
-                            class="bg-brand-surface p-6 rounded-xl border border-brand/5 md:col-span-2"
+                            class="rounded-xl border border-brand/5 bg-brand-surface p-6 md:col-span-2"
                         >
                             <h3
-                                class="text-lg font-bold text-brand-ink mb-4 pb-2 border-b border-[#C9A227]/30"
+                                class="mb-4 border-b border-[#C9A227]/30 pb-2 text-lg font-bold text-brand-ink"
                             >
                                 5. Pengembangan Kelembagaan
                             </h3>
                             <ul
-                                class="list-disc pl-5 space-y-2 text-sm leading-relaxed"
+                                class="list-disc space-y-2 pl-5 text-sm leading-relaxed"
                             >
                                 <li>
                                     Penguatan sistem pendidikan dan pengelolaan
@@ -530,12 +530,12 @@ import PublicLayout from "@/layouts/PublicLayout.vue";
                 <!-- G. STRATEGI / ARAH PENCAPAIAN -->
                 <div>
                     <h2
-                        class="text-2xl sm:text-3xl font-bold text-brand-ink border-l-4 border-[#C9A227] pl-5 mb-8"
+                        class="mb-8 border-l-4 border-[#C9A227] pl-5 text-2xl font-bold text-brand-ink sm:text-3xl"
                     >
                         Strategi dan Arah Pencapaian
                     </h2>
                     <div
-                        class="space-y-8 text-base text-gray-700 leading-relaxed text-justify"
+                        class="space-y-8 text-justify text-base leading-relaxed text-gray-700"
                     >
                         <p>
                             Pencapaian visi dan misi dilakukan secara bertahap
@@ -548,7 +548,7 @@ import PublicLayout from "@/layouts/PublicLayout.vue";
                         </p>
                         <div class="border-l-4 border-[#C9A227] pl-5">
                             <h3
-                                class="text-lg sm:text-xl font-bold text-brand-ink mb-2"
+                                class="mb-2 text-lg font-bold text-brand-ink sm:text-xl"
                             >
                                 1. Penguatan Pendidikan Online
                             </h3>
@@ -562,7 +562,7 @@ import PublicLayout from "@/layouts/PublicLayout.vue";
                         </div>
                         <div class="border-l-4 border-[#C9A227] pl-5">
                             <h3
-                                class="text-lg sm:text-xl font-bold text-brand-ink mb-2"
+                                class="mb-2 text-lg font-bold text-brand-ink sm:text-xl"
                             >
                                 2. Penguatan Kurikulum dan Keilmuan
                             </h3>
@@ -575,7 +575,7 @@ import PublicLayout from "@/layouts/PublicLayout.vue";
                         </div>
                         <div class="border-l-4 border-[#C9A227] pl-5">
                             <h3
-                                class="text-lg sm:text-xl font-bold text-brand-ink mb-2"
+                                class="mb-2 text-lg font-bold text-brand-ink sm:text-xl"
                             >
                                 3. Pembentukan Karakter dan Akhlak
                             </h3>
@@ -589,7 +589,7 @@ import PublicLayout from "@/layouts/PublicLayout.vue";
                         </div>
                         <div class="border-l-4 border-[#C9A227] pl-5">
                             <h3
-                                class="text-lg sm:text-xl font-bold text-brand-ink mb-2"
+                                class="mb-2 text-lg font-bold text-brand-ink sm:text-xl"
                             >
                                 4. Penguatan Amal dan Dakwah
                             </h3>
@@ -603,7 +603,7 @@ import PublicLayout from "@/layouts/PublicLayout.vue";
                         </div>
                         <div class="border-l-4 border-[#C9A227] pl-5">
                             <h3
-                                class="text-lg sm:text-xl font-bold text-brand-ink mb-2"
+                                class="mb-2 text-lg font-bold text-brand-ink sm:text-xl"
                             >
                                 5. Penguatan Kontribusi kepada Ummat
                             </h3>
@@ -617,7 +617,7 @@ import PublicLayout from "@/layouts/PublicLayout.vue";
                         </div>
                         <div class="border-l-4 border-[#C9A227] pl-5">
                             <h3
-                                class="text-lg sm:text-xl font-bold text-brand-ink mb-2"
+                                class="mb-2 text-lg font-bold text-brand-ink sm:text-xl"
                             >
                                 6. Pengembangan Kelembagaan secara Bertahap
                             </h3>
@@ -634,28 +634,28 @@ import PublicLayout from "@/layouts/PublicLayout.vue";
                 <!-- H. TAHAPAN PENGEMBANGAN (TIMELINE) -->
                 <div>
                     <h2
-                        class="text-2xl sm:text-3xl font-bold text-brand-ink border-l-4 border-[#C9A227] pl-5 mb-10"
+                        class="mb-10 border-l-4 border-[#C9A227] pl-5 text-2xl font-bold text-brand-ink sm:text-3xl"
                     >
                         Tahapan Pengembangan
                     </h2>
 
                     <div
-                        class="relative border-l-2 border-[#C9A227]/30 pl-8 space-y-12 ml-4"
+                        class="relative ml-4 space-y-12 border-l-2 border-[#C9A227]/30 pl-8"
                     >
                         <!-- Tahap 1 -->
                         <div class="relative">
                             <div
-                                class="absolute -left-[41px] top-1 flex h-5 w-5 items-center justify-center rounded-full bg-white border-4 border-[#C9A227]"
+                                class="absolute top-1 -left-[41px] flex h-5 w-5 items-center justify-center rounded-full border-4 border-[#C9A227] bg-white"
                             ></div>
                             <div
-                                class="inline-flex items-center rounded-full bg-brand/10 px-4 py-1.5 text-sm font-bold text-brand mb-3"
+                                class="mb-3 inline-flex items-center rounded-full bg-brand/10 px-4 py-1.5 text-sm font-bold text-brand"
                             >
                                 2020
                             </div>
-                            <h3 class="text-xl font-bold text-brand-ink mb-2">
+                            <h3 class="mb-2 text-xl font-bold text-brand-ink">
                                 Perintisan dan Pembentukan
                             </h3>
-                            <p class="text-gray-700 leading-relaxed">
+                            <p class="leading-relaxed text-gray-700">
                                 Ilyas institut berawal dari majelis taklim yang
                                 dibina olehH. Muhammad Riza, S.Pd., M.Pd., M.A..
                                 Tahap ini menjadi bagian awal dari perjalanan
@@ -667,17 +667,17 @@ import PublicLayout from "@/layouts/PublicLayout.vue";
                         <!-- Tahap 2 -->
                         <div class="relative">
                             <div
-                                class="absolute -left-[41px] top-1 flex h-5 w-5 items-center justify-center rounded-full bg-white border-4 border-[#C9A227]"
+                                class="absolute top-1 -left-[41px] flex h-5 w-5 items-center justify-center rounded-full border-4 border-[#C9A227] bg-white"
                             ></div>
                             <div
-                                class="inline-flex items-center rounded-full bg-brand/10 px-4 py-1.5 text-sm font-bold text-brand mb-3"
+                                class="mb-3 inline-flex items-center rounded-full bg-brand/10 px-4 py-1.5 text-sm font-bold text-brand"
                             >
                                 2022
                             </div>
-                            <h3 class="text-xl font-bold text-brand-ink mb-2">
+                            <h3 class="mb-2 text-xl font-bold text-brand-ink">
                                 Transformasi Digital dan Pendidikan Online
                             </h3>
-                            <p class="text-gray-700 leading-relaxed">
+                            <p class="leading-relaxed text-gray-700">
                                 Pada tahap ini, Ilyas institut melakukan
                                 transformasi menuju penyelenggaraan pendidikan
                                 berbasis digital dan online. Perubahan tersebut
@@ -690,17 +690,17 @@ import PublicLayout from "@/layouts/PublicLayout.vue";
                         <!-- Tahap 3 -->
                         <div class="relative">
                             <div
-                                class="absolute -left-[41px] top-1 flex h-5 w-5 items-center justify-center rounded-full bg-white border-4 border-[#C9A227]"
+                                class="absolute top-1 -left-[41px] flex h-5 w-5 items-center justify-center rounded-full border-4 border-[#C9A227] bg-white"
                             ></div>
                             <div
-                                class="inline-flex items-center rounded-full bg-brand/10 px-4 py-1.5 text-sm font-bold text-brand mb-3"
+                                class="mb-3 inline-flex items-center rounded-full bg-brand/10 px-4 py-1.5 text-sm font-bold text-brand"
                             >
                                 Penguatan Berkelanjutan
                             </div>
-                            <h3 class="text-xl font-bold text-brand-ink mb-2">
+                            <h3 class="mb-2 text-xl font-bold text-brand-ink">
                                 Penguatan Pendidikan Online
                             </h3>
-                            <p class="text-gray-700 leading-relaxed">
+                            <p class="leading-relaxed text-gray-700">
                                 Tahap penguatan diarahkan pada pengembangan
                                 kualitas pendidikan online, sistem pembelajaran,
                                 LMS, kurikulum, layanan akademik, sumber daya
@@ -713,10 +713,10 @@ import PublicLayout from "@/layouts/PublicLayout.vue";
                         <div class="relative">
                             <!-- Bintang untuk target masa depan -->
                             <div
-                                class="absolute -left-[45px] top-0.5 flex h-7 w-7 items-center justify-center rounded-full bg-[#C9A227] text-white"
+                                class="absolute top-0.5 -left-[45px] flex h-7 w-7 items-center justify-center rounded-full bg-[#C9A227] text-white"
                             >
                                 <svg
-                                    class="w-4 h-4"
+                                    class="h-4 w-4"
                                     fill="currentColor"
                                     viewBox="0 0 20 20"
                                 >
@@ -726,14 +726,14 @@ import PublicLayout from "@/layouts/PublicLayout.vue";
                                 </svg>
                             </div>
                             <div
-                                class="inline-flex items-center rounded-full bg-[#C9A227] px-4 py-1.5 text-sm font-bold text-white mb-3"
+                                class="mb-3 inline-flex items-center rounded-full bg-[#C9A227] px-4 py-1.5 text-sm font-bold text-white"
                             >
                                 2030
                             </div>
-                            <h3 class="text-xl font-bold text-brand-ink mb-2">
+                            <h3 class="mb-2 text-xl font-bold text-brand-ink">
                                 Pengembangan Menuju Universitas Islam Global
                             </h3>
-                            <p class="text-gray-700 leading-relaxed">
+                            <p class="leading-relaxed text-gray-700">
                                 Pengembangan jangka panjang Ilyas institut
                                 diarahkan menuju cita-cita menjadi Universitas
                                 Islam Global pada tahun 2030. Arah ini ditempuh
@@ -748,9 +748,9 @@ import PublicLayout from "@/layouts/PublicLayout.vue";
             <!-- PENUTUP -->
             <div class="border-t border-gray-200 pt-12">
                 <div
-                    class="bg-brand-surface rounded-2xl border border-brand/10 p-8 sm:p-10 text-center"
+                    class="rounded-2xl border border-brand/10 bg-brand-surface p-8 text-center sm:p-10"
                 >
-                    <div class="inline-flex items-center gap-2 mb-5">
+                    <div class="mb-5 inline-flex items-center gap-2">
                         <span class="h-0.5 w-8 bg-[#C9A227]"></span>
                         <span
                             class="text-xs font-bold tracking-[0.2em] text-brand uppercase"
@@ -758,11 +758,11 @@ import PublicLayout from "@/layouts/PublicLayout.vue";
                         >
                         <span class="h-0.5 w-8 bg-[#C9A227]"></span>
                     </div>
-                    <h2 class="text-2xl sm:text-3xl font-bold text-brand-ink">
+                    <h2 class="text-2xl font-bold text-brand-ink sm:text-3xl">
                         Iman · Ilmu · Amal · Dakwah · Watafaqquh Fiddin
                     </h2>
                     <p
-                        class="mt-4 max-w-3xl mx-auto text-gray-700 leading-relaxed"
+                        class="mx-auto mt-4 max-w-3xl leading-relaxed text-gray-700"
                     >
                         Visi, misi, tujuan, dan arah pengembangan menjadi
                         landasan bagi Ilyas institut dalam membangun pendidikan

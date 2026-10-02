@@ -1,6 +1,6 @@
 <script setup lang="ts">
-import { Head } from "@inertiajs/vue3";
-import PublicLayout from "@/layouts/PublicLayout.vue";
+import { Head } from '@inertiajs/vue3';
+import PublicLayout from '@/layouts/PublicLayout.vue';
 </script>
 
 <template>
@@ -31,7 +31,7 @@ import PublicLayout from "@/layouts/PublicLayout.vue";
                     <span class="h-0.5 w-8 bg-[#C9A227]"></span>
 
                     <span
-                        class="text-xs font-bold uppercase tracking-[0.2em] text-[#C9A227] drop-shadow-md"
+                        class="text-xs font-bold tracking-[0.2em] text-[#C9A227] uppercase drop-shadow-md"
                     >
                         TENTANG KAMI
                     </span>
@@ -61,7 +61,7 @@ import PublicLayout from "@/layouts/PublicLayout.vue";
             class="relative overflow-hidden bg-[#F8FAFC] py-20 sm:py-24 lg:py-28"
         >
             <div
-                class="pointer-events-none absolute -left-32 top-20 h-80 w-80 rounded-full bg-brand/5 blur-3xl"
+                class="pointer-events-none absolute top-20 -left-32 h-80 w-80 rounded-full bg-brand/5 blur-3xl"
             ></div>
 
             <div
@@ -75,7 +75,7 @@ import PublicLayout from "@/layouts/PublicLayout.vue";
                         <span class="h-px w-10 bg-brand/20"></span>
 
                         <span
-                            class="text-xs font-bold uppercase tracking-[0.22em] text-brand"
+                            class="text-xs font-bold tracking-[0.22em] text-brand uppercase"
                         >
                             Struktur Pimpinan
                         </span>
@@ -112,9 +112,8 @@ import PublicLayout from "@/layouts/PublicLayout.vue";
                                 src="/images/direktur.png"
                                 alt="H. Muhammad Riza, S.Pd., M.Pd., M.A."
                                 class="absolute inset-0 h-full w-full object-cover object-center transition duration-500 group-hover:scale-[1.02]"
-                                onerror="
-                                    this.src = '/images/placeholder-avatar.png'
-                                "
+                                onerror="this.src =
+                                    '/images/placeholder-avatar.png';"
                             />
 
                             <div
@@ -122,7 +121,7 @@ import PublicLayout from "@/layouts/PublicLayout.vue";
                             ></div>
 
                             <div
-                                class="absolute left-6 top-6 rounded-full border border-white/20 bg-black/20 px-4 py-2 text-[10px] font-bold uppercase tracking-[0.18em] text-white backdrop-blur-md sm:left-8 sm:top-8"
+                                class="absolute top-6 left-6 rounded-full border border-white/20 bg-black/20 px-4 py-2 text-[10px] font-bold tracking-[0.18em] text-white uppercase backdrop-blur-md sm:top-8 sm:left-8"
                             >
                                 Pimpinan Utama
                             </div>
@@ -135,7 +134,7 @@ import PublicLayout from "@/layouts/PublicLayout.vue";
                                 ></div>
 
                                 <p
-                                    class="text-xs font-medium uppercase tracking-[0.18em] text-white/85"
+                                    class="text-xs font-medium tracking-[0.18em] text-white/85 uppercase"
                                 >
                                     Ilyas Institut
                                 </p>
@@ -149,7 +148,7 @@ import PublicLayout from "@/layouts/PublicLayout.vue";
                             <!-- JABATAN -->
                             <div class="mb-6">
                                 <span
-                                    class="inline-flex rounded-full bg-brand px-4 py-2 text-xs font-bold uppercase tracking-[0.12em] text-white"
+                                    class="inline-flex rounded-full bg-brand px-4 py-2 text-xs font-bold tracking-[0.12em] text-white uppercase"
                                 >
                                     Direktur
                                 </span>
@@ -157,7 +156,7 @@ import PublicLayout from "@/layouts/PublicLayout.vue";
 
                             <!-- NAMA -->
                             <h3
-                                class="text-3xl font-bold leading-tight tracking-tight text-brand-ink sm:text-4xl lg:text-[42px]"
+                                class="text-3xl leading-tight font-bold tracking-tight text-brand-ink sm:text-4xl lg:text-[42px]"
                             >
                                 H. Muhammad Riza,
                                 <span class="block"> S.Pd., M.Pd., M.A. </span>
@@ -170,7 +169,7 @@ import PublicLayout from "@/layouts/PublicLayout.vue";
                                 ></span>
 
                                 <p
-                                    class="text-sm font-semibold uppercase tracking-[0.14em] text-brand/80"
+                                    class="text-sm font-semibold tracking-[0.14em] text-brand/80 uppercase"
                                 >
                                     Direktur Ilyas Institut
                                 </p>
@@ -190,13 +189,13 @@ import PublicLayout from "@/layouts/PublicLayout.vue";
                             <div class="mt-9 border-t border-slate-200 pt-7">
                                 <div class="flex gap-4">
                                     <div
-                                        class="mt-1 text-4xl font-serif leading-none text-[#C9A227]/70"
+                                        class="mt-1 font-serif text-4xl leading-none text-[#C9A227]/70"
                                     >
                                         “
                                     </div>
 
                                     <p
-                                        class="text-lg font-medium italic leading-8 text-brand-ink/80 sm:text-xl"
+                                        class="text-lg leading-8 font-medium text-brand-ink/80 italic sm:text-xl"
                                     >
                                         Mendidik bukan sekadar mentransfer ilmu,
                                         tetapi mewariskan keimanan dan akhlak
@@ -228,9 +227,8 @@ import PublicLayout from "@/layouts/PublicLayout.vue";
                                 src="/images/muhammad-aini.png"
                                 alt="H. Muhammad Aini, S.Pd.I., M.M."
                                 class="absolute inset-0 h-full w-full object-cover object-center transition duration-500 group-hover:scale-[1.02]"
-                                onerror="
-                                    this.src = '/images/placeholder-avatar.png'
-                                "
+                                onerror="this.src =
+                                    '/images/placeholder-avatar.png';"
                             />
 
                             <div
@@ -238,7 +236,7 @@ import PublicLayout from "@/layouts/PublicLayout.vue";
                             ></div>
 
                             <div
-                                class="absolute left-6 top-6 rounded-full border border-white/20 bg-black/20 px-4 py-2 text-[10px] font-bold uppercase tracking-[0.18em] text-white backdrop-blur-md sm:left-8 sm:top-8"
+                                class="absolute top-6 left-6 rounded-full border border-white/20 bg-black/20 px-4 py-2 text-[10px] font-bold tracking-[0.18em] text-white uppercase backdrop-blur-md sm:top-8 sm:left-8"
                             >
                                 Pimpinan Institut
                             </div>
@@ -251,7 +249,7 @@ import PublicLayout from "@/layouts/PublicLayout.vue";
                                 ></div>
 
                                 <p
-                                    class="text-xs font-medium uppercase tracking-[0.18em] text-white/85"
+                                    class="text-xs font-medium tracking-[0.18em] text-white/85 uppercase"
                                 >
                                     Ilyas Institut
                                 </p>
@@ -265,7 +263,7 @@ import PublicLayout from "@/layouts/PublicLayout.vue";
                             <!-- JABATAN -->
                             <div class="mb-6">
                                 <span
-                                    class="inline-flex rounded-full bg-brand px-4 py-2 text-xs font-bold uppercase tracking-[0.12em] text-white"
+                                    class="inline-flex rounded-full bg-brand px-4 py-2 text-xs font-bold tracking-[0.12em] text-white uppercase"
                                 >
                                     Wakil Direktur
                                 </span>
@@ -273,7 +271,7 @@ import PublicLayout from "@/layouts/PublicLayout.vue";
 
                             <!-- NAMA -->
                             <h3
-                                class="text-3xl font-bold leading-tight tracking-tight text-brand-ink sm:text-4xl lg:text-[42px]"
+                                class="text-3xl leading-tight font-bold tracking-tight text-brand-ink sm:text-4xl lg:text-[42px]"
                             >
                                 H. Muhammad Aini,
                                 <span class="block"> S.Pd.I., M.M. </span>
@@ -286,7 +284,7 @@ import PublicLayout from "@/layouts/PublicLayout.vue";
                                 ></span>
 
                                 <p
-                                    class="text-sm font-semibold uppercase tracking-[0.14em] text-brand/80"
+                                    class="text-sm font-semibold tracking-[0.14em] text-brand/80 uppercase"
                                 >
                                     Wakil Direktur Ilyas Institut
                                 </p>
@@ -310,7 +308,7 @@ import PublicLayout from "@/layouts/PublicLayout.vue";
                                     ></span>
 
                                     <span
-                                        class="text-xs font-semibold uppercase tracking-[0.18em] text-brand-ink/50"
+                                        class="text-xs font-semibold tracking-[0.18em] text-brand-ink/50 uppercase"
                                     >
                                         Wakil Direktur
                                     </span>

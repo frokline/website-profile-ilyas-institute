@@ -27,7 +27,7 @@
             <div class="mb-5 flex items-center justify-center gap-3">
                 <span class="h-[1px] w-8 bg-[#C9A227]"></span>
                 <p
-                    class="text-[10px] font-bold uppercase tracking-[0.25em] text-[#C9A227]"
+                    class="text-[10px] font-bold tracking-[0.25em] text-[#C9A227] uppercase"
                 >
                     Kuliah Online Ilmu Syar'i
                 </p>

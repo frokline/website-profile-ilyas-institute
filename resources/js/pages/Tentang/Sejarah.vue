@@ -1,6 +1,6 @@
 <script setup lang="ts">
-import { Head } from "@inertiajs/vue3";
-import PublicLayout from "@/layouts/PublicLayout.vue";
+import { Head } from '@inertiajs/vue3';
+import PublicLayout from '@/layouts/PublicLayout.vue';
 </script>
 
 <template>
@@ -9,7 +9,7 @@ import PublicLayout from "@/layouts/PublicLayout.vue";
     <PublicLayout>
         <!-- 1. HERO SECTION -->
         <section
-            class="relative overflow-hidden flex items-center justify-center pt-32 pb-24 lg:pt-48 lg:pb-36"
+            class="relative flex items-center justify-center overflow-hidden pt-32 pb-24 lg:pt-48 lg:pb-36"
         >
             <!-- Gambar Background -->
             <div class="absolute inset-0 z-0">
@@ -26,9 +26,9 @@ import PublicLayout from "@/layouts/PublicLayout.vue";
 
             <!-- Teks Judul -->
             <div
-                class="relative z-10 mx-auto max-w-7xl px-6 sm:px-8 lg:px-12 text-center"
+                class="relative z-10 mx-auto max-w-7xl px-6 text-center sm:px-8 lg:px-12"
             >
-                <div class="inline-flex items-center gap-2 mb-4">
+                <div class="mb-4 inline-flex items-center gap-2">
                     <span class="h-0.5 w-8 bg-[#C9A227]"></span>
                     <span
                         class="text-xs font-bold tracking-[0.2em] text-[#C9A227] uppercase drop-shadow-md"
@@ -37,12 +37,12 @@ import PublicLayout from "@/layouts/PublicLayout.vue";
                     <span class="h-0.5 w-8 bg-[#C9A227]"></span>
                 </div>
                 <h1
-                    class="text-4xl font-bold tracking-tight text-white sm:text-5xl lg:text-6xl drop-shadow-xl"
+                    class="text-4xl font-bold tracking-tight text-white drop-shadow-xl sm:text-5xl lg:text-6xl"
                 >
                     Sejarah Institusi
                 </h1>
                 <p
-                    class="mt-6 mx-auto max-w-2xl text-lg text-white/90 leading-relaxed drop-shadow-md"
+                    class="mx-auto mt-6 max-w-2xl text-lg leading-relaxed text-white/90 drop-shadow-md"
                 >
                     Jejak langkah dan tonggak sejarah perjalanan ilyas dalam
                     mengabdi untuk pendidikan islam di era digital.
@@ -50,19 +50,19 @@ import PublicLayout from "@/layouts/PublicLayout.vue";
             </div>
         </section>
         <!-- 2. BAGIAN TIMELINE (GARIS WAKTU) -->
-        <section class="bg-white py-24 sm:py-28 relative">
+        <section class="relative bg-white py-24 sm:py-28">
             <div class="mx-auto max-w-4xl px-6 sm:px-8 lg:px-12">
                 <div
-                    class="relative border-l-2 border-[#C9A227]/30 pl-8 sm:pl-12 space-y-16"
+                    class="relative space-y-16 border-l-2 border-[#C9A227]/30 pl-8 sm:pl-12"
                 >
                     <!-- Tahun 1: Awal Pendirian -->
                     <div class="relative">
                         <div
-                            class="absolute -left-[41px] sm:-left-[57px] top-1 flex h-5 w-5 items-center justify-center rounded-full bg-white border-4 border-[#C9A227] shadow-sm"
+                            class="absolute top-1 -left-[41px] flex h-5 w-5 items-center justify-center rounded-full border-4 border-[#C9A227] bg-white shadow-sm sm:-left-[57px]"
                         ></div>
 
                         <div
-                            class="inline-flex items-center rounded-full bg-brand/10 px-4 py-1.5 text-sm font-bold text-brand mb-4"
+                            class="mb-4 inline-flex items-center rounded-full bg-brand/10 px-4 py-1.5 text-sm font-bold text-brand"
                         >
                             Tahun 2020
                         </div>
@@ -70,7 +70,7 @@ import PublicLayout from "@/layouts/PublicLayout.vue";
                             Awal Mula Pendirian
                         </h3>
                         <p
-                            class="mt-3 text-base text-brand-ink/75 leading-relaxed"
+                            class="mt-3 text-base leading-relaxed text-brand-ink/75"
                         >
                             Ilyas institut bermula dari sebuah gagasan majelis
                             taklim kecil yang dipimpin oleh H. Muhammad Riza,
@@ -84,11 +84,11 @@ import PublicLayout from "@/layouts/PublicLayout.vue";
                     <!-- Tahun 2: Transformasi Digital -->
                     <div class="relative">
                         <div
-                            class="absolute -left-[41px] sm:-left-[57px] top-1 flex h-5 w-5 items-center justify-center rounded-full bg-white border-4 border-[#C9A227] shadow-sm"
+                            class="absolute top-1 -left-[41px] flex h-5 w-5 items-center justify-center rounded-full border-4 border-[#C9A227] bg-white shadow-sm sm:-left-[57px]"
                         ></div>
 
                         <div
-                            class="inline-flex items-center rounded-full bg-brand/10 px-4 py-1.5 text-sm font-bold text-brand mb-4"
+                            class="mb-4 inline-flex items-center rounded-full bg-brand/10 px-4 py-1.5 text-sm font-bold text-brand"
                         >
                             Tahun 2022
                         </div>
@@ -96,13 +96,13 @@ import PublicLayout from "@/layouts/PublicLayout.vue";
                             Transformasi ke Pembelajaran Digital
                         </h3>
                         <p
-                            class="mt-3 text-base text-brand-ink/75 leading-relaxed"
+                            class="mt-3 text-base leading-relaxed text-brand-ink/75"
                         >
                             Menghadapi perubahan zaman dan keterbatasan jarak
                             dari para penuntut ilmu di berbagai daerah, Ilyas
                             institut melakukan lompatan besar dengan meluncurkan
                             sistem
-                            <span class="italic text-brand font-semibold"
+                            <span class="font-semibold text-brand italic"
                                 >Learning Management System (LMS)</span
                             >. Sistem ini memungkinkan mahasiswa mengikuti
                             perkuliahan secara
@@ -114,11 +114,11 @@ import PublicLayout from "@/layouts/PublicLayout.vue";
                     <!-- Tahun 3: Perluasan Program Studi -->
                     <div class="relative">
                         <div
-                            class="absolute -left-[41px] sm:-left-[57px] top-1 flex h-5 w-5 items-center justify-center rounded-full bg-white border-4 border-[#C9A227] shadow-sm"
+                            class="absolute top-1 -left-[41px] flex h-5 w-5 items-center justify-center rounded-full border-4 border-[#C9A227] bg-white shadow-sm sm:-left-[57px]"
                         ></div>
 
                         <div
-                            class="inline-flex items-center rounded-full bg-brand/10 px-4 py-1.5 text-sm font-bold text-brand mb-4"
+                            class="mb-4 inline-flex items-center rounded-full bg-brand/10 px-4 py-1.5 text-sm font-bold text-brand"
                         >
                             Tahun 2024
                         </div>
@@ -126,7 +126,7 @@ import PublicLayout from "@/layouts/PublicLayout.vue";
                             Perluasan Program Studi
                         </h3>
                         <p
-                            class="mt-3 text-base text-brand-ink/75 leading-relaxed"
+                            class="mt-3 text-base leading-relaxed text-brand-ink/75"
                         >
                             Setelah sukses dengan program PAI, institut resmi
                             membuka program studi Ilmu Al-Qur'an dan Tafsir
@@ -141,10 +141,10 @@ import PublicLayout from "@/layouts/PublicLayout.vue";
                     <div class="relative">
                         <!-- Indikator Bintang untuk titik terbaru -->
                         <div
-                            class="absolute -left-[45px] sm:-left-[61px] top-0.5 flex h-7 w-7 items-center justify-center rounded-full bg-[#C9A227] shadow-md text-white"
+                            class="absolute top-0.5 -left-[45px] flex h-7 w-7 items-center justify-center rounded-full bg-[#C9A227] text-white shadow-md sm:-left-[61px]"
                         >
                             <svg
-                                class="w-4 h-4"
+                                class="h-4 w-4"
                                 fill="currentColor"
                                 viewBox="0 0 20 20"
                             >
@@ -155,7 +155,7 @@ import PublicLayout from "@/layouts/PublicLayout.vue";
                         </div>
 
                         <div
-                            class="inline-flex items-center rounded-full bg-[#C9A227] px-4 py-1.5 text-sm font-bold text-white shadow-sm mb-4"
+                            class="mb-4 inline-flex items-center rounded-full bg-[#C9A227] px-4 py-1.5 text-sm font-bold text-white shadow-sm"
                         >
                             2026 - Masa Depan
                         </div>
@@ -163,7 +163,7 @@ import PublicLayout from "@/layouts/PublicLayout.vue";
                             Menuju Universitas Islam Global
                         </h3>
                         <p
-                            class="mt-3 text-base text-brand-ink/75 leading-relaxed"
+                            class="mt-3 text-base leading-relaxed text-brand-ink/75"
                         >
                             Hari ini, Ilyas institut terus berinovasi untuk
                             mencetak generasi

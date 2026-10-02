@@ -1,17 +1,17 @@
 <script setup lang="ts">
-import { Link } from "@inertiajs/vue3";
+import { Link } from '@inertiajs/vue3';
 </script>
 
 <template>
     <footer
-        class="bg-[#08120e] text-white pt-20 pb-8 border-t border-brand/20 relative overflow-hidden"
+        class="relative overflow-hidden border-t border-brand/20 bg-[#08120e] pt-20 pb-8 text-white"
     >
         <!-- Aksen Motif Dekoratif Tipis di Footer -->
         <div
-            class="absolute top-0 right-0 w-96 h-96 opacity-5 pointer-events-none"
+            class="pointer-events-none absolute top-0 right-0 h-96 w-96 opacity-5"
         >
             <svg
-                class="w-full h-full text-white"
+                class="h-full w-full text-white"
                 viewBox="0 0 100 100"
                 fill="none"
                 stroke="currentColor"
@@ -23,13 +23,13 @@ import { Link } from "@inertiajs/vue3";
             </svg>
         </div>
 
-        <div class="mx-auto max-w-7xl px-6 sm:px-8 lg:px-12 relative z-10">
+        <div class="relative z-10 mx-auto max-w-7xl px-6 sm:px-8 lg:px-12">
             <!-- Grid Utama Footer -->
             <div
-                class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-10 lg:gap-12 pb-16 border-b border-white/10"
+                class="grid grid-cols-1 gap-10 border-b border-white/10 pb-16 md:grid-cols-2 lg:grid-cols-12 lg:gap-12"
             >
                 <!-- Kolom 1: Brand & Tentang (Span 4) -->
-                <div class="lg:col-span-4 space-y-6">
+                <div class="space-y-6 lg:col-span-4">
                     <div class="flex items-center gap-3">
                         <Link
                             href="/"
@@ -43,38 +43,38 @@ import { Link } from "@inertiajs/vue3";
                         </Link>
                         <div>
                             <span
-                                class="block text-xl font-bold tracking-tight text-white font-serif"
+                                class="block font-serif text-xl font-bold tracking-tight text-white"
                                 >ILYAS INSTITUT</span
                             >
                             <span
-                                class="block text-[10px] text-white/70 uppercase tracking-[0.2em] mt-0.5"
+                                class="mt-0.5 block text-[10px] tracking-[0.2em] text-white/70 uppercase"
                                 >Kuliah Online Ilmu Syar'i</span
                             >
                         </div>
                     </div>
 
-                    <p class="text-sm text-white/70 leading-relaxed max-w-sm">
+                    <p class="max-w-sm text-sm leading-relaxed text-white/70">
                         Pilihan program pendidikan Islam berbasis pembelajaran
                         online yang fleksibel, terarah, dan mendalam untuk
                         membangun masa depan bersama ilmu dan amal.
                     </p>
 
-                    <div class="pt-2 border-t border-white/10 inline-block">
+                    <div class="inline-block border-t border-white/10 pt-2">
                         <p
-                            class="text-xs font-semibold text-[#C9A227] tracking-wider uppercase mb-1"
+                            class="mb-1 text-xs font-semibold tracking-wider text-[#C9A227] uppercase"
                         >
                             Motto Kami
                         </p>
-                        <p class="text-sm font-serif italic text-white/90">
+                        <p class="font-serif text-sm text-white/90 italic">
                             "Iman · Ilmu · Amal · Dakwah · Watafaqquh Fiddin"
                         </p>
                     </div>
                 </div>
 
                 <!-- Kolom 2: Navigasi (Span 2) -->
-                <div class="lg:col-span-2 space-y-5 lg:ml-4">
+                <div class="space-y-5 lg:col-span-2 lg:ml-4">
                     <h4
-                        class="text-xs font-bold text-[#C9A227] uppercase tracking-[0.15em]"
+                        class="text-xs font-bold tracking-[0.15em] text-[#C9A227] uppercase"
                     >
                         Navigasi
                     </h4>
@@ -82,7 +82,7 @@ import { Link } from "@inertiajs/vue3";
                         <li>
                             <Link
                                 href="/tentang/visi-misi"
-                                class="transition-colors hover:text-[#C9A227] flex items-center gap-2"
+                                class="flex items-center gap-2 transition-colors hover:text-[#C9A227]"
                             >
                                 <span
                                     class="h-1 w-1 rounded-full bg-white/30"
@@ -93,7 +93,7 @@ import { Link } from "@inertiajs/vue3";
                         <li>
                             <Link
                                 href="/penerimaan"
-                                class="transition-colors hover:text-[#C9A227] flex items-center gap-2"
+                                class="flex items-center gap-2 transition-colors hover:text-[#C9A227]"
                             >
                                 <span
                                     class="h-1 w-1 rounded-full bg-white/30"
@@ -104,7 +104,7 @@ import { Link } from "@inertiajs/vue3";
                         <li>
                             <a
                                 href="#beasiswa"
-                                class="transition-colors hover:text-[#C9A227] flex items-center gap-2"
+                                class="flex items-center gap-2 transition-colors hover:text-[#C9A227]"
                             >
                                 <span
                                     class="h-1 w-1 rounded-full bg-white/30"
@@ -115,7 +115,7 @@ import { Link } from "@inertiajs/vue3";
                         <li>
                             <a
                                 href="#kontak"
-                                class="transition-colors hover:text-[#C9A227] flex items-center gap-2"
+                                class="flex items-center gap-2 transition-colors hover:text-[#C9A227]"
                             >
                                 <span
                                     class="h-1 w-1 rounded-full bg-white/30"
@@ -127,9 +127,9 @@ import { Link } from "@inertiajs/vue3";
                 </div>
 
                 <!-- Kolom 3: Program Studi (Span 3) -->
-                <div class="lg:col-span-3 space-y-5">
+                <div class="space-y-5 lg:col-span-3">
                     <h4
-                        class="text-xs font-bold text-[#C9A227] uppercase tracking-[0.15em]"
+                        class="text-xs font-bold tracking-[0.15em] text-[#C9A227] uppercase"
                     >
                         Program Studi S1
                     </h4>
@@ -137,7 +137,7 @@ import { Link } from "@inertiajs/vue3";
                         <li>
                             <Link
                                 href="/program-studi/pai"
-                                class="transition-colors hover:text-[#C9A227] block leading-snug"
+                                class="block leading-snug transition-colors hover:text-[#C9A227]"
                             >
                                 Pendidikan Agama Islam <br /><span
                                     class="text-xs text-white/40"
@@ -148,7 +148,7 @@ import { Link } from "@inertiajs/vue3";
                         <li>
                             <Link
                                 href="/program-studi/pgmi"
-                                class="transition-colors hover:text-[#C9A227] block leading-snug"
+                                class="block leading-snug transition-colors hover:text-[#C9A227]"
                             >
                                 Pendidikan Guru Madrasah Ibtidaiyah <br /><span
                                     class="text-xs text-white/40"
@@ -159,7 +159,7 @@ import { Link } from "@inertiajs/vue3";
                         <li>
                             <Link
                                 href="/program-studi/iat"
-                                class="transition-colors hover:text-[#C9A227] block leading-snug"
+                                class="block leading-snug transition-colors hover:text-[#C9A227]"
                             >
                                 Ilmu Al-Qur'an & Tafsir <br /><span
                                     class="text-xs text-white/40"
@@ -171,16 +171,16 @@ import { Link } from "@inertiajs/vue3";
                 </div>
 
                 <!-- Kolom 4: Kontak & Sosial Media (Span 3) -->
-                <div class="lg:col-span-3 space-y-5">
+                <div class="space-y-5 lg:col-span-3">
                     <h4
-                        class="text-xs font-bold text-[#C9A227] uppercase tracking-[0.15em]"
+                        class="text-xs font-bold tracking-[0.15em] text-[#C9A227] uppercase"
                     >
                         Hubungi Kami
                     </h4>
                     <ul class="space-y-4 text-sm text-white/70">
                         <li class="flex items-start gap-3">
                             <svg
-                                class="w-5 h-5 text-[#C9A227] shrink-0 mt-0.5"
+                                class="mt-0.5 h-5 w-5 shrink-0 text-[#C9A227]"
                                 fill="none"
                                 viewBox="0 0 24 24"
                                 stroke="currentColor"
@@ -206,7 +206,7 @@ import { Link } from "@inertiajs/vue3";
                         </li>
                         <li class="flex items-center gap-3">
                             <svg
-                                class="w-5 h-5 text-[#C9A227] shrink-0"
+                                class="h-5 w-5 shrink-0 text-[#C9A227]"
                                 fill="none"
                                 viewBox="0 0 24 24"
                                 stroke="currentColor"
@@ -222,7 +222,7 @@ import { Link } from "@inertiajs/vue3";
                         </li>
                         <li class="flex items-center gap-3">
                             <svg
-                                class="w-5 h-5 text-[#C9A227] shrink-0"
+                                class="h-5 w-5 shrink-0 text-[#C9A227]"
                                 fill="none"
                                 viewBox="0 0 24 24"
                                 stroke="currentColor"
@@ -244,11 +244,11 @@ import { Link } from "@inertiajs/vue3";
                             <!-- WhatsApp -->
                             <a
                                 href="https://wa.link/jmipl2"
-                                class="h-8 w-8 rounded-full bg-white/5 flex items-center justify-center text-white/80 hover:bg-[#C9A227] hover:text-white transition-all duration-300"
+                                class="flex h-8 w-8 items-center justify-center rounded-full bg-white/5 text-white/80 transition-all duration-300 hover:bg-[#C9A227] hover:text-white"
                                 aria-label="WhatsApp"
                             >
                                 <svg
-                                    class="w-4 h-4"
+                                    class="h-4 w-4"
                                     fill="currentColor"
                                     viewBox="0 0 24 24"
                                 >
@@ -260,11 +260,11 @@ import { Link } from "@inertiajs/vue3";
                             <!-- Instagram -->
                             <a
                                 href="https://www.instagram.com/ilyasinstitut/"
-                                class="h-8 w-8 rounded-full bg-white/5 flex items-center justify-center text-white/80 hover:bg-[#C9A227] hover:text-white transition-all duration-300"
+                                class="flex h-8 w-8 items-center justify-center rounded-full bg-white/5 text-white/80 transition-all duration-300 hover:bg-[#C9A227] hover:text-white"
                                 aria-label="Instagram"
                             >
                                 <svg
-                                    class="w-4 h-4"
+                                    class="h-4 w-4"
                                     fill="currentColor"
                                     viewBox="0 0 24 24"
                                 >
@@ -278,11 +278,11 @@ import { Link } from "@inertiajs/vue3";
                             <!-- YouTube -->
                             <a
                                 href="https://www.youtube.com/@Ilyasinstitut"
-                                class="h-8 w-8 rounded-full bg-white/5 flex items-center justify-center text-white/80 hover:bg-[#C9A227] hover:text-white transition-all duration-300"
+                                class="flex h-8 w-8 items-center justify-center rounded-full bg-white/5 text-white/80 transition-all duration-300 hover:bg-[#C9A227] hover:text-white"
                                 aria-label="YouTube"
                             >
                                 <svg
-                                    class="w-4 h-4"
+                                    class="h-4 w-4"
                                     fill="currentColor"
                                     viewBox="0 0 24 24"
                                 >
@@ -300,7 +300,7 @@ import { Link } from "@inertiajs/vue3";
 
             <!-- Bagian Bawah: Copyright & Legal -->
             <div
-                class="mt-8 flex flex-col md:flex-row items-center justify-between gap-4 text-xs text-white/50"
+                class="mt-8 flex flex-col items-center justify-between gap-4 text-xs text-white/50 md:flex-row"
             >
                 <p>
                     &copy; 2026 Ilyas institut. Hak Cipta Dilindungi

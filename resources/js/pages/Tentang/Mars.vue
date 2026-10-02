@@ -1,6 +1,6 @@
 <script setup lang="ts">
-import { Head } from "@inertiajs/vue3";
-import PublicLayout from "@/layouts/PublicLayout.vue";
+import { Head } from '@inertiajs/vue3';
+import PublicLayout from '@/layouts/PublicLayout.vue';
 </script>
 
 <template>
@@ -9,7 +9,7 @@ import PublicLayout from "@/layouts/PublicLayout.vue";
     <PublicLayout>
         <!-- 1. HERO SECTION -->
         <section
-            class="relative pt-32 pb-24 lg:pt-48 lg:pb-36 overflow-hidden flex items-center justify-center"
+            class="relative flex items-center justify-center overflow-hidden pt-32 pb-24 lg:pt-48 lg:pb-36"
         >
             <!-- Gambar Background -->
             <div class="absolute inset-0 z-0">
@@ -26,9 +26,9 @@ import PublicLayout from "@/layouts/PublicLayout.vue";
 
             <!-- Teks Judul -->
             <div
-                class="relative z-10 mx-auto max-w-7xl px-6 sm:px-8 lg:px-12 text-center"
+                class="relative z-10 mx-auto max-w-7xl px-6 text-center sm:px-8 lg:px-12"
             >
-                <div class="inline-flex items-center gap-2 mb-4">
+                <div class="mb-4 inline-flex items-center gap-2">
                     <span class="h-0.5 w-8 bg-[#C9A227]"></span>
                     <span
                         class="text-xs font-bold tracking-[0.2em] text-[#C9A227] uppercase drop-shadow-md"
@@ -37,7 +37,7 @@ import PublicLayout from "@/layouts/PublicLayout.vue";
                     <span class="h-0.5 w-8 bg-[#C9A227]"></span>
                 </div>
                 <h1
-                    class="text-4xl font-bold tracking-tight text-white sm:text-5xl lg:text-6xl drop-shadow-xl"
+                    class="text-4xl font-bold tracking-tight text-white drop-shadow-xl sm:text-5xl lg:text-6xl"
                 >
                     Mars Institusi - Ilyas institut
                 </h1>
@@ -46,15 +46,15 @@ import PublicLayout from "@/layouts/PublicLayout.vue";
 
         <!-- 2. BAGIAN LIRIK MARS (Simpel & Rata Tengah) -->
         <section class="bg-white py-20 sm:py-28">
-            <div class="mx-auto max-w-3xl px-6 sm:px-8 lg:px-12 text-center">
+            <div class="mx-auto max-w-3xl px-6 text-center sm:px-8 lg:px-12">
                 <h2
-                    class="text-3xl sm:text-4xl font-bold text-brand-ink mb-16 uppercase tracking-wide"
+                    class="mb-16 text-3xl font-bold tracking-wide text-brand-ink uppercase sm:text-4xl"
                 >
                     MARS ILYAS INSTITUT
                 </h2>
 
                 <div
-                    class="font-serif text-lg sm:text-xl text-brand-ink/90 leading-[2.2] space-y-10 italic"
+                    class="space-y-10 font-serif text-lg leading-[2.2] text-brand-ink/90 italic sm:text-xl"
                 >
                     <p>
                         Dengan iman kami melangkah<br />
@@ -72,7 +72,7 @@ import PublicLayout from "@/layouts/PublicLayout.vue";
 
                     <p>
                         <span
-                            class="not-italic font-bold text-brand-ink/60 text-sm tracking-widest block mb-2 uppercase"
+                            class="mb-2 block text-sm font-bold tracking-widest text-brand-ink/60 uppercase not-italic"
                             >Reff:</span
                         >
                         Ilyas Institut, maju bersama<br />
@@ -94,7 +94,7 @@ import PublicLayout from "@/layouts/PublicLayout.vue";
                         Jayalah, jayalah selamanya!
                     </p>
 
-                    <p class="text-3xl text-brand-ink/30 my-8 not-italic">
+                    <p class="my-8 text-3xl text-brand-ink/30 not-italic">
                         ...
                     </p>
 

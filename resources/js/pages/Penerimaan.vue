@@ -1,6 +1,6 @@
 <script setup lang="ts">
-import { Head, Link } from "@inertiajs/vue3";
-import PublicLayout from "@/layouts/PublicLayout.vue";
+import { Head, Link } from '@inertiajs/vue3';
+import PublicLayout from '@/layouts/PublicLayout.vue';
 </script>
 
 <template>
@@ -9,11 +9,11 @@ import PublicLayout from "@/layouts/PublicLayout.vue";
     <PublicLayout>
         <!-- 1. HERO SECTION (DIPERBAIKI: Skala Gambar & Alignment) -->
         <section
-            class="relative bg-brand pt-2 lg:pt-2 overflow-hidden flex items-end"
+            class="relative flex items-end overflow-hidden bg-brand pt-2 lg:pt-2"
         >
             <!-- Efek Motif Islami Background -->
             <div
-                class="absolute inset-0 z-0 opacity-10 mix-blend-soft-light [mask-image:linear-gradient(to_bottom,black_40%,transparent_100%)]"
+                class="absolute inset-0 z-0 [mask-image:linear-gradient(to_bottom,black_40%,transparent_100%)] opacity-10 mix-blend-soft-light"
             >
                 <svg class="h-full w-full" xmlns="http://www.w3.org/2000/svg">
                     <defs>
@@ -49,85 +49,85 @@ import PublicLayout from "@/layouts/PublicLayout.vue";
 
             <!-- Container Konten -->
             <div
-                class="relative z-10 mx-auto max-w-7xl px-6 sm:px-8 lg:px-12 w-full"
+                class="relative z-10 mx-auto w-full max-w-7xl px-6 sm:px-8 lg:px-12"
             >
                 <!-- PARTIKEL PAMFLET MELAYANG (MENYEBAR & KECIL) -->
                 <div
-                    class="absolute inset-y-0 left-0 w-full lg:w-1/2 z-0 pointer-events-none hidden sm:block"
+                    class="pointer-events-none absolute inset-y-0 left-0 z-0 hidden w-full sm:block lg:w-1/2"
                 >
                     <!-- Pamflet 1 -->
                     <div
-                        class="absolute top-[10%] left-[-2%] w-14 lg:w-20 animate-float-slow opacity-60"
+                        class="animate-float-slow absolute top-[10%] left-[-2%] w-14 opacity-60 lg:w-20"
                         style="animation-delay: 0s"
                     >
                         <img
                             src="/images/pamflet.png"
-                            class="w-full h-auto rounded-lg shadow-lg -rotate-12 border border-white/20"
+                            class="h-auto w-full -rotate-12 rounded-lg border border-white/20 shadow-lg"
                         />
                     </div>
                     <!-- Pamflet 2 -->
                     <div
-                        class="absolute top-[40%] left-[35%] w-10 lg:w-14 animate-float-medium opacity-40 blur-[2px]"
+                        class="animate-float-medium absolute top-[40%] left-[35%] w-10 opacity-40 blur-[2px] lg:w-14"
                         style="animation-delay: 1.2s"
                     >
                         <img
                             src="/images/pamflet4.png"
-                            class="w-full h-auto rounded-md shadow-md rotate-12 border border-white/20"
+                            class="h-auto w-full rotate-12 rounded-md border border-white/20 shadow-md"
                         />
                     </div>
                     <!-- Pamflet 3 -->
                     <div
-                        class="absolute bottom-[20%] left-[5%] w-16 lg:w-24 animate-float-fast opacity-80"
+                        class="animate-float-fast absolute bottom-[20%] left-[5%] w-16 opacity-80 lg:w-24"
                         style="animation-delay: 0.7s"
                     >
                         <img
                             src="/images/pamflet3.png"
-                            class="w-full h-auto rounded-lg shadow-xl -rotate-6 border border-white/30"
+                            class="h-auto w-full -rotate-6 rounded-lg border border-white/30 shadow-xl"
                         />
                     </div>
                     <!-- Pamflet 4 -->
                     <div
-                        class="absolute top-[25%] left-[20%] w-8 lg:w-12 animate-float-slow opacity-50 blur-[1px]"
+                        class="animate-float-slow absolute top-[25%] left-[20%] w-8 opacity-50 blur-[1px] lg:w-12"
                         style="animation-delay: 2.5s"
                     >
                         <img
                             src="/images/pamflet2.png"
-                            class="w-full h-auto rounded-md shadow-sm rotate-45 border border-white/10"
+                            class="h-auto w-full rotate-45 rounded-md border border-white/10 shadow-sm"
                         />
                     </div>
                     <!-- Pamflet 5 -->
                     <div
-                        class="absolute top-[75%] left-[30%] w-12 lg:w-16 animate-float-medium opacity-60"
+                        class="animate-float-medium absolute top-[75%] left-[30%] w-12 opacity-60 lg:w-16"
                         style="animation-delay: 3.5s"
                     >
                         <img
                             src="/images/beasiswa.png"
-                            class="w-full h-auto rounded-lg shadow-md -rotate-12 border border-white/20"
+                            class="h-auto w-full -rotate-12 rounded-lg border border-white/20 shadow-md"
                         />
                     </div>
                 </div>
                 <!-- END PARTIKEL PAMFLET -->
 
                 <div
-                    class="flex flex-col lg:flex-row lg:items-end justify-between relative z-10"
+                    class="relative z-10 flex flex-col justify-between lg:flex-row lg:items-end"
                 >
                     <!-- ELEMEN MELAYANG DI SEBELAH KIRI -->
                     <!-- Badge Atas: Info Program S1 -->
                     <!-- ELEMEN MELAYANG DI SEBELAH KIRI (REDESAIN PREMIUM) -->
                     <!-- Badge Atas: Info Program S1 -->
                     <div
-                        class="absolute top-12 left-2 sm:left-6 z-30 hidden sm:flex items-center gap-3.5 bg-white/90 backdrop-blur-xl px-4 py-3 rounded-2xl shadow-[0_8px_30px_rgba(0,0,0,0.08)] border border-white/60 ring-1 ring-[#C9A227]/20 transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_12px_40px_rgba(201,162,39,0.15)] cursor-default"
+                        class="absolute top-12 left-2 z-30 hidden cursor-default items-center gap-3.5 rounded-2xl border border-white/60 bg-white/90 px-4 py-3 shadow-[0_8px_30px_rgba(0,0,0,0.08)] ring-1 ring-[#C9A227]/20 backdrop-blur-xl transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_12px_40px_rgba(201,162,39,0.15)] sm:left-6 sm:flex"
                     >
                         <!-- Icon Container Premium -->
                         <div
-                            class="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-gradient-to-br from-[#C9A227]/20 to-[#C9A227]/5 border border-[#C9A227]/30 text-[#C9A227] shadow-inner"
+                            class="flex h-10 w-10 shrink-0 items-center justify-center rounded-full border border-[#C9A227]/30 bg-gradient-to-br from-[#C9A227]/20 to-[#C9A227]/5 text-[#C9A227] shadow-inner"
                         >
                             <!-- SVG Academic Cap (Toga) Premium -->
                             <svg
                                 xmlns="http://www.w3.org/2000/svg"
                                 viewBox="0 0 24 24"
                                 fill="currentColor"
-                                class="w-5 h-5 drop-shadow-sm"
+                                class="h-5 w-5 drop-shadow-sm"
                             >
                                 <path
                                     d="M11.7 2.805a.75.75 0 0 1 .6 0A60.65 60.65 0 0 1 22.83 8.72a.75.75 0 0 1-.231 1.337 49.94 49.94 0 0 0-9.902 3.912l-.15.08a.75.75 0 0 1-.722 0l-.149-.08a49.873 49.873 0 0 0-9.903-3.913.75.75 0 0 1-.231-1.337A60.653 60.653 0 0 1 11.7 2.805Z"
@@ -140,25 +140,25 @@ import PublicLayout from "@/layouts/PublicLayout.vue";
 
                         <div>
                             <p
-                                class="text-[11px] font-extrabold text-brand-ink uppercase tracking-[0.15em]"
+                                class="text-[11px] font-extrabold tracking-[0.15em] text-brand-ink uppercase"
                             >
                                 Kuliah S1 Reguler
                             </p>
                             <p
-                                class="text-[10.5px] font-medium text-gray-500 mt-0.5"
+                                class="mt-0.5 text-[10.5px] font-medium text-gray-500"
                             >
                                 PAI, IAT & PGMI Online
                             </p>
                         </div>
                     </div>
                     <div
-                        class="w-full lg:w-5/12 order-2 lg:order-1 flex justify-center lg:justify-start relative z-20 mt-10 lg:mt-0"
+                        class="relative z-20 order-2 mt-10 flex w-full justify-center lg:order-1 lg:mt-0 lg:w-5/12 lg:justify-start"
                     >
                         <!-- Tampil hanya di layar Desktop (lg ke atas) -->
                         <img
                             src="/images/penerimaan.png"
                             alt="Mahasiswi Ilyas institut"
-                            class="hidden lg:block w-full sm:w-[85%] lg:w-[150%] max-w-[850px] object-contain object-bottom drop-shadow-2xl lg:-ml-20 relative z-20"
+                            class="relative z-20 hidden w-full max-w-[850px] object-contain object-bottom drop-shadow-2xl sm:w-[85%] lg:-ml-20 lg:block lg:w-[150%]"
                             style="margin-bottom: -1px"
                         />
 
@@ -166,20 +166,20 @@ import PublicLayout from "@/layouts/PublicLayout.vue";
                         <img
                             src="/images/penerimaan.png"
                             alt="Mahasiswi Ilyas institut"
-                            class="block lg:hidden w-[90%] max-w-[400px] object-contain object-bottom drop-shadow-xl relative z-20"
+                            class="relative z-20 block w-[90%] max-w-[400px] object-contain object-bottom drop-shadow-xl lg:hidden"
                             style="margin-bottom: -1px"
                         />
                     </div>
 
                     <!-- KOLOM KANAN: Teks Hero -->
                     <div
-                        class="w-full lg:w-7/12 order-1 lg:order-2 text-center lg:text-left pt-4 pb-8 lg:pb-28 relative z-30 lg:pl-16 xl:pl-20"
+                        class="relative z-30 order-1 w-full pt-4 pb-8 text-center lg:order-2 lg:w-7/12 lg:pb-28 lg:pl-16 lg:text-left xl:pl-20"
                     >
                         <div
-                            class="inline-flex items-center justify-center lg:justify-start gap-2 mb-6 w-full"
+                            class="mb-6 inline-flex w-full items-center justify-center gap-2 lg:justify-start"
                         >
                             <span
-                                class="h-0.5 w-8 bg-[#C9A227] hidden lg:block"
+                                class="hidden h-0.5 w-8 bg-[#C9A227] lg:block"
                             ></span>
                             <span
                                 class="text-xs font-bold tracking-[0.2em] text-[#C9A227] uppercase drop-shadow-sm"
@@ -189,36 +189,36 @@ import PublicLayout from "@/layouts/PublicLayout.vue";
                         </div>
 
                         <h1
-                            class="text-4xl font-bold tracking-tight text-white sm:text-5xl lg:text-6xl leading-tight lg:leading-tight drop-shadow-md"
+                            class="text-4xl leading-tight font-bold tracking-tight text-white drop-shadow-md sm:text-5xl lg:text-6xl lg:leading-tight"
                         >
                             Wujudkan Cita-Cita<br class="hidden lg:block" />
                             Bersama Kami
                         </h1>
 
                         <p
-                            class="mt-6 mx-auto lg:mx-0 max-w-xl text-lg text-white/85 leading-relaxed drop-shadow-sm"
+                            class="mx-auto mt-6 max-w-xl text-lg leading-relaxed text-white/85 drop-shadow-sm lg:mx-0"
                         >
                             Kuliah 100% fleksibel untuk pekerja & ibu rumah
                             tangga. Daftar sekarang dan mulai perjalanan
-                            <em class="text-[#C9A227] font-semibold"
+                            <em class="font-semibold text-[#C9A227]"
                                 >tafaqquh fiddin</em
                             >
                             bersama Ilyas institut.
                         </p>
 
                         <div
-                            class="mt-8 flex flex-wrap justify-center lg:justify-start gap-4"
+                            class="mt-8 flex flex-wrap justify-center gap-4 lg:justify-start"
                         >
                             <a
                                 href="#alur-pendaftaran"
-                                class="inline-flex items-center rounded-full bg-[#C9A227] px-6 py-3 text-sm font-semibold text-white transition hover:bg-[#b08d20] shadow-lg hover:-translate-y-0.5"
+                                class="inline-flex items-center rounded-full bg-[#C9A227] px-6 py-3 text-sm font-semibold text-white shadow-lg transition hover:-translate-y-0.5 hover:bg-[#b08d20]"
                             >
                                 Lihat Alur Pendaftaran
                                 <span aria-hidden="true" class="ml-2">→</span>
                             </a>
                             <a
                                 href="https://wa.link/jmipl2"
-                                class="inline-flex items-center rounded-full border border-white/30 bg-white/10 px-6 py-3 text-sm font-semibold text-white backdrop-blur-md transition hover:bg-white/20 hover:-translate-y-0.5 shadow-lg"
+                                class="inline-flex items-center rounded-full border border-white/30 bg-white/10 px-6 py-3 text-sm font-semibold text-white shadow-lg backdrop-blur-md transition hover:-translate-y-0.5 hover:bg-white/20"
                             >
                                 Hubungi Panitia
                             </a>
@@ -232,12 +232,12 @@ import PublicLayout from "@/layouts/PublicLayout.vue";
         <!-- Sebelumnya: <section class="bg-white py-16 sm:py-24"> -->
         <section class="bg-white py-10 sm:py-16">
             <!-- Sebelumnya: <div class="mx-auto max-w-5xl px-6 sm:px-8 space-y-20"> -->
-            <div class="mx-auto max-w-5xl px-6 sm:px-8 space-y-10">
+            <div class="mx-auto max-w-5xl space-y-10 px-6 sm:px-8">
                 <!-- A. JADWAL PENDAFTARAN -->
                 <div>
                     <!-- Tambahan: Jika jarak antara teks kecil "JADWAL PENDAFTARAN" dengan 
                          judul utama di bawahnya juga ingin dirapatkan, ubah mb-4 menjadi mb-2 -->
-                    <div class="inline-flex items-center gap-2 mb-2">
+                    <div class="mb-2 inline-flex items-center gap-2">
                         <span
                             class="text-xs font-bold tracking-[0.25em] text-[#C9A227] uppercase"
                         >
@@ -245,12 +245,12 @@ import PublicLayout from "@/layouts/PublicLayout.vue";
                         </span>
                     </div>
                     <h2
-                        class="text-2xl sm:text-3xl font-bold text-brand-ink border-l-4 border-[#C9A227] pl-5 mb-8"
+                        class="mb-8 border-l-4 border-[#C9A227] pl-5 text-2xl font-bold text-brand-ink sm:text-3xl"
                     >
                         Gelombang Pendaftaran
                     </h2>
                     <p
-                        class="mb-8 text-base text-gray-700 leading-relaxed text-justify"
+                        class="mb-8 text-justify text-base leading-relaxed text-gray-700"
                     >
                         Penerimaan mahasiswa baru Ilyas institut diselenggarakan
                         dalam beberapa gelombang. Kuota setiap gelombang
@@ -261,14 +261,14 @@ import PublicLayout from "@/layouts/PublicLayout.vue";
                     <div class="grid gap-6 md:grid-cols-3">
                         <!-- Gelombang 1 -->
                         <div
-                            class="bg-brand-surface p-8 rounded-xl border border-brand/10"
+                            class="rounded-xl border border-brand/10 bg-brand-surface p-8"
                         >
                             <h3
-                                class="text-lg font-bold text-brand-ink mb-2 pb-2 border-b border-[#C9A227]/30"
+                                class="mb-2 border-b border-[#C9A227]/30 pb-2 text-lg font-bold text-brand-ink"
                             >
                                 Gelombang 1 (Early Bird)
                             </h3>
-                            <ul class="space-y-3 text-sm text-gray-700 mt-4">
+                            <ul class="mt-4 space-y-3 text-sm text-gray-700">
                                 <li class="grid grid-cols-[100px_1fr] gap-2">
                                     <span class="font-semibold text-brand-ink"
                                         >Status</span
@@ -288,12 +288,12 @@ import PublicLayout from "@/layouts/PublicLayout.vue";
 
                         <!-- Gelombang 2 (Aktif) -->
                         <div
-                            class="bg-brand p-8 rounded-xl shadow-lg relative overflow-hidden"
+                            class="relative overflow-hidden rounded-xl bg-brand p-8 shadow-lg"
                         >
                             <!-- Aksen Bintang/Garis di latar -->
                             <div class="absolute top-0 right-0 p-4 opacity-10">
                                 <svg
-                                    class="w-16 h-16 text-white"
+                                    class="h-16 w-16 text-white"
                                     fill="currentColor"
                                     viewBox="0 0 20 20"
                                 >
@@ -303,16 +303,16 @@ import PublicLayout from "@/layouts/PublicLayout.vue";
                                 </svg>
                             </div>
                             <span
-                                class="inline-block bg-[#C9A227] text-white text-[10px] font-bold uppercase tracking-wider py-1 px-3 rounded-full mb-3 relative z-10"
+                                class="relative z-10 mb-3 inline-block rounded-full bg-[#C9A227] px-3 py-1 text-[10px] font-bold tracking-wider text-white uppercase"
                                 >Sedang Dibuka</span
                             >
                             <h3
-                                class="text-lg font-bold text-white mb-2 pb-2 border-b border-white/20 relative z-10"
+                                class="relative z-10 mb-2 border-b border-white/20 pb-2 text-lg font-bold text-white"
                             >
                                 Gelombang 2 (Reguler)
                             </h3>
                             <ul
-                                class="space-y-3 text-sm text-white/90 mt-4 relative z-10"
+                                class="relative z-10 mt-4 space-y-3 text-sm text-white/90"
                             >
                                 <li class="grid grid-cols-[100px_1fr] gap-2">
                                     <span class="font-semibold text-white"
@@ -332,7 +332,7 @@ import PublicLayout from "@/layouts/PublicLayout.vue";
                             </ul>
                             <a
                                 href="https://forms.gle/NG7eEC3uKNhjEpkD8"
-                                class="mt-6 inline-flex w-full items-center justify-center rounded-lg bg-white px-4 py-2 text-sm font-bold text-brand transition hover:bg-gray-100 relative z-10"
+                                class="relative z-10 mt-6 inline-flex w-full items-center justify-center rounded-lg bg-white px-4 py-2 text-sm font-bold text-brand transition hover:bg-gray-100"
                             >
                                 Daftar Sekarang
                             </a>
@@ -340,14 +340,14 @@ import PublicLayout from "@/layouts/PublicLayout.vue";
 
                         <!-- Gelombang 3 -->
                         <div
-                            class="bg-brand-surface p-8 rounded-xl border border-brand/10"
+                            class="rounded-xl border border-brand/10 bg-brand-surface p-8"
                         >
                             <h3
-                                class="text-lg font-bold text-brand-ink mb-2 pb-2 border-b border-[#C9A227]/30"
+                                class="mb-2 border-b border-[#C9A227]/30 pb-2 text-lg font-bold text-brand-ink"
                             >
                                 Gelombang 3 (Akhir)
                             </h3>
-                            <ul class="space-y-3 text-sm text-gray-700 mt-4">
+                            <ul class="mt-4 space-y-3 text-sm text-gray-700">
                                 <li class="grid grid-cols-[100px_1fr] gap-2">
                                     <span class="font-semibold text-brand-ink"
                                         >Status</span
@@ -370,20 +370,20 @@ import PublicLayout from "@/layouts/PublicLayout.vue";
 
                 <!-- B. ALUR PENDAFTARAN -->
                 <div id="alur-pendaftaran" class="scroll-mt-24">
-                    <div class="inline-flex items-center gap-2 mb-4">
+                    <div class="mb-4 inline-flex items-center gap-2">
                         <span
                             class="text-xs font-bold tracking-[0.25em] text-[#C9A227] uppercase"
                             >TATA CARA</span
                         >
                     </div>
                     <h2
-                        class="text-2xl sm:text-3xl font-bold text-brand-ink border-l-4 border-[#C9A227] pl-5 mb-8"
+                        class="mb-8 border-l-4 border-[#C9A227] pl-5 text-2xl font-bold text-brand-ink sm:text-3xl"
                     >
                         Alur Pendaftaran Mahasiswa Baru
                     </h2>
 
                     <div
-                        class="relative border-l-2 border-[#C9A227]/30 pl-8 space-y-10 ml-4 mt-10"
+                        class="relative mt-10 ml-4 space-y-10 border-l-2 border-[#C9A227]/30 pl-8"
                     >
                         <div
                             v-for="(step, i) in [
@@ -408,15 +408,15 @@ import PublicLayout from "@/layouts/PublicLayout.vue";
                             class="relative"
                         >
                             <div
-                                class="absolute -left-[41px] top-1 flex h-6 w-6 items-center justify-center rounded-full bg-white border-4 border-[#C9A227] text-[10px] font-bold text-brand-ink"
+                                class="absolute top-1 -left-[41px] flex h-6 w-6 items-center justify-center rounded-full border-4 border-[#C9A227] bg-white text-[10px] font-bold text-brand-ink"
                             >
                                 {{ i + 1 }}
                             </div>
-                            <h3 class="text-xl font-bold text-brand-ink mb-2">
+                            <h3 class="mb-2 text-xl font-bold text-brand-ink">
                                 {{ step.title }}
                             </h3>
                             <p
-                                class="text-gray-700 leading-relaxed text-justify"
+                                class="text-justify leading-relaxed text-gray-700"
                             >
                                 {{ step.desc }}
                             </p>
@@ -427,22 +427,22 @@ import PublicLayout from "@/layouts/PublicLayout.vue";
                 <!-- C. SYARAT & KETENTUAN (Grid 2 Kolom) -->
                 <div>
                     <h2
-                        class="text-2xl sm:text-3xl font-bold text-brand-ink border-l-4 border-[#C9A227] pl-5 mb-8"
+                        class="mb-8 border-l-4 border-[#C9A227] pl-5 text-2xl font-bold text-brand-ink sm:text-3xl"
                     >
                         Persyaratan & Ketentuan Biaya
                     </h2>
-                    <div class="grid md:grid-cols-2 gap-8">
+                    <div class="grid gap-8 md:grid-cols-2">
                         <!-- Syarat -->
                         <div
-                            class="bg-brand-surface p-8 rounded-xl border border-brand/5"
+                            class="rounded-xl border border-brand/5 bg-brand-surface p-8"
                         >
                             <h3
-                                class="text-lg font-bold text-brand-ink mb-4 pb-2 border-b border-[#C9A227]/30"
+                                class="mb-4 border-b border-[#C9A227]/30 pb-2 text-lg font-bold text-brand-ink"
                             >
                                 Berkas Persyaratan Utama
                             </h3>
                             <ol
-                                class="list-decimal pl-5 space-y-3 text-sm text-gray-700 leading-relaxed"
+                                class="list-decimal space-y-3 pl-5 text-sm leading-relaxed text-gray-700"
                             >
                                 <li>
                                     Lulusan tingkat SMA/MA/SMK/sederajat (atau
@@ -471,14 +471,14 @@ import PublicLayout from "@/layouts/PublicLayout.vue";
 
                         <!-- Biaya -->
                         <div
-                            class="bg-brand-surface p-8 rounded-xl border border-brand/5"
+                            class="rounded-xl border border-brand/5 bg-brand-surface p-8"
                         >
                             <h3
-                                class="text-lg font-bold text-brand-ink mb-4 pb-2 border-b border-[#C9A227]/30"
+                                class="mb-4 border-b border-[#C9A227]/30 pb-2 text-lg font-bold text-brand-ink"
                             >
                                 Ketentuan Administrasi Biaya
                             </h3>
-                            <p class="text-sm text-gray-700 mb-4">
+                            <p class="mb-4 text-sm text-gray-700">
                                 Rincian biaya pendidikan dapat berubah
                                 menyesuaikan kebijakan lembaga. Silakan
                                 konfirmasi ke panitia untuk rincian terbaru.
@@ -520,15 +520,15 @@ import PublicLayout from "@/layouts/PublicLayout.vue";
                 <!-- PENUTUP & CTA -->
                 <div class="border-t border-gray-200 pt-12">
                     <div
-                        class="bg-brand-surface rounded-2xl border border-brand/10 p-8 sm:p-10 text-center"
+                        class="rounded-2xl border border-brand/10 bg-brand-surface p-8 text-center sm:p-10"
                     >
                         <h2
-                            class="text-2xl sm:text-3xl font-bold text-brand-ink mb-4"
+                            class="mb-4 text-2xl font-bold text-brand-ink sm:text-3xl"
                         >
                             Mulai Perjalanan Tafaqquh Fiddin Anda
                         </h2>
                         <p
-                            class="max-w-2xl mx-auto text-gray-700 leading-relaxed mb-8"
+                            class="mx-auto mb-8 max-w-2xl leading-relaxed text-gray-700"
                         >
                             Dapatkan informasi lebih lanjut mengenai program
                             studi PAI, IAT, maupun PGMI dan konsultasikan
@@ -537,7 +537,7 @@ import PublicLayout from "@/layouts/PublicLayout.vue";
                         <div class="flex flex-wrap justify-center gap-4">
                             <a
                                 href="https://wa.link/jmipl2"
-                                class="inline-flex items-center rounded-lg bg-[#C9A227] px-8 py-3 text-sm font-bold text-white transition hover:bg-[#b08d20] shadow-md"
+                                class="inline-flex items-center rounded-lg bg-[#C9A227] px-8 py-3 text-sm font-bold text-white shadow-md transition hover:bg-[#b08d20]"
                             >
                                 Hubungi Panitia Penerimaan
                             </a>

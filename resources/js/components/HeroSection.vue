@@ -23,7 +23,7 @@
             >
                 <!-- Pola Motif Bintang Islami Modern (Eksklusif, besar, dan aman di sisi kiri) -->
                 <svg
-                    class="absolute inset-0 z-0 h-full w-full opacity-15 mix-blend-soft-light [mask-image:linear-gradient(to_right,black_30%,transparent_80%)]"
+                    class="absolute inset-0 z-0 h-full w-full [mask-image:linear-gradient(to_right,black_30%,transparent_80%)] opacity-15 mix-blend-soft-light"
                     xmlns="http://www.w3.org/2000/svg"
                 >
                     <defs>
@@ -122,7 +122,7 @@
         <!-- BAGIAN BAWAH: Baris Ikon Keunggulan -->
         <div class="relative z-20 border-b border-brand/10 bg-white shadow-sm">
             <div
-                class="mx-auto flex max-w-7xl flex-col items-start gap-6 px-6 py-8 md:flex-row md:flex-wrap md:items-center md:justify-between sm:px-8 lg:px-12"
+                class="mx-auto flex max-w-7xl flex-col items-start gap-6 px-6 py-8 sm:px-8 md:flex-row md:flex-wrap md:items-center md:justify-between lg:px-12"
             >
                 <div class="flex items-center gap-4 text-brand-ink">
                     <svg

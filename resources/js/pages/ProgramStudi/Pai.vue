@@ -1,6 +1,6 @@
 <script setup lang="ts">
-import { Head } from "@inertiajs/vue3";
-import PublicLayout from "@/layouts/PublicLayout.vue";
+import { Head } from '@inertiajs/vue3';
+import PublicLayout from '@/layouts/PublicLayout.vue';
 </script>
 
 <template>
@@ -9,7 +9,7 @@ import PublicLayout from "@/layouts/PublicLayout.vue";
     <PublicLayout>
         <!-- 1. HERO SECTION -->
         <section
-            class="relative pt-32 pb-24 lg:pt-48 lg:pb-36 overflow-hidden flex items-center justify-center"
+            class="relative flex items-center justify-center overflow-hidden pt-32 pb-24 lg:pt-48 lg:pb-36"
         >
             <!-- Gambar Background -->
             <div class="absolute inset-0 z-0">
@@ -26,9 +26,9 @@ import PublicLayout from "@/layouts/PublicLayout.vue";
 
             <!-- Teks Judul -->
             <div
-                class="relative z-10 mx-auto max-w-7xl px-6 sm:px-8 lg:px-12 text-center"
+                class="relative z-10 mx-auto max-w-7xl px-6 text-center sm:px-8 lg:px-12"
             >
-                <div class="inline-flex items-center gap-2 mb-4">
+                <div class="mb-4 inline-flex items-center gap-2">
                     <span class="h-0.5 w-8 bg-[#C9A227]"></span>
                     <span
                         class="text-xs font-bold tracking-[0.2em] text-[#C9A227] uppercase drop-shadow-md"
@@ -38,12 +38,12 @@ import PublicLayout from "@/layouts/PublicLayout.vue";
                     <span class="h-0.5 w-8 bg-[#C9A227]"></span>
                 </div>
                 <h1
-                    class="text-4xl font-bold tracking-tight text-white sm:text-5xl lg:text-6xl drop-shadow-xl"
+                    class="text-4xl font-bold tracking-tight text-white drop-shadow-xl sm:text-5xl lg:text-6xl"
                 >
                     Pendidikan Agama Islam
                 </h1>
                 <p
-                    class="mt-6 mx-auto max-w-2xl text-lg text-white/90 leading-relaxed drop-shadow-md"
+                    class="mx-auto mt-6 max-w-2xl text-lg leading-relaxed text-white/90 drop-shadow-md"
                 >
                     Mempersiapkan mahasiswa untuk memahami ilmu pendidikan dan
                     keislaman serta mengembangkan kompetensi sebagai pendidik
@@ -58,13 +58,13 @@ import PublicLayout from "@/layouts/PublicLayout.vue";
                 <!-- INFORMASI PROGRAM -->
                 <div class="mb-16">
                     <h2
-                        class="text-2xl sm:text-3xl font-bold text-brand-ink border-l-4 border-[#C9A227] pl-5 mb-8"
+                        class="mb-8 border-l-4 border-[#C9A227] pl-5 text-2xl font-bold text-brand-ink sm:text-3xl"
                     >
                         Informasi Program
                     </h2>
-                    <div class="space-y-4 text-brand-ink/80 text-lg">
+                    <div class="space-y-4 text-lg text-brand-ink/80">
                         <div
-                            class="grid grid-cols-1 sm:grid-cols-[200px_1fr] gap-1 sm:gap-6"
+                            class="grid grid-cols-1 gap-1 sm:grid-cols-[200px_1fr] sm:gap-6"
                         >
                             <div class="font-semibold text-brand-ink">
                                 Program Studi
@@ -72,7 +72,7 @@ import PublicLayout from "@/layouts/PublicLayout.vue";
                             <div>: S1 Pendidikan Agama Islam (PAI)</div>
                         </div>
                         <div
-                            class="grid grid-cols-1 sm:grid-cols-[200px_1fr] gap-1 sm:gap-6"
+                            class="grid grid-cols-1 gap-1 sm:grid-cols-[200px_1fr] sm:gap-6"
                         >
                             <div class="font-semibold text-brand-ink">
                                 Gelar Akademik
@@ -80,7 +80,7 @@ import PublicLayout from "@/layouts/PublicLayout.vue";
                             <div>: Sarjana Pendidikan (S.Pd.)</div>
                         </div>
                         <div
-                            class="grid grid-cols-1 sm:grid-cols-[200px_1fr] gap-1 sm:gap-6"
+                            class="grid grid-cols-1 gap-1 sm:grid-cols-[200px_1fr] sm:gap-6"
                         >
                             <div class="font-semibold text-brand-ink">
                                 Bidang Keilmuan
@@ -93,11 +93,11 @@ import PublicLayout from "@/layouts/PublicLayout.vue";
                 <!-- TENTANG & VISI MISI -->
                 <div class="mb-16">
                     <h2
-                        class="text-2xl sm:text-3xl font-bold text-brand-ink border-l-4 border-[#C9A227] pl-5 mb-8"
+                        class="mb-8 border-l-4 border-[#C9A227] pl-5 text-2xl font-bold text-brand-ink sm:text-3xl"
                     >
                         Tentang Program Studi
                     </h2>
-                    <p class="text-brand-ink/80 text-lg leading-relaxed mb-8">
+                    <p class="mb-8 text-lg leading-relaxed text-brand-ink/80">
                         Program Studi
                         <strong class="text-brand-ink">
                             S1 Pendidikan Agama Islam (PAI)
@@ -111,11 +111,11 @@ import PublicLayout from "@/layouts/PublicLayout.vue";
                     </p>
 
                     <h2
-                        class="text-2xl sm:text-3xl font-bold text-brand-ink border-l-4 border-[#C9A227] pl-5 mb-8"
+                        class="mb-8 border-l-4 border-[#C9A227] pl-5 text-2xl font-bold text-brand-ink sm:text-3xl"
                     >
                         Visi
                     </h2>
-                    <p class="text-brand-ink/80 text-lg leading-relaxed mb-8">
+                    <p class="mb-8 text-lg leading-relaxed text-brand-ink/80">
                         Menjadi program studi Pendidikan Agama Islam yang
                         menghasilkan pendidik dan praktisi pendidikan Islam yang
                         berilmu, berakhlak, profesional, serta mampu beradaptasi
@@ -123,46 +123,46 @@ import PublicLayout from "@/layouts/PublicLayout.vue";
                     </p>
 
                     <h2
-                        class="text-2xl sm:text-3xl font-bold text-brand-ink border-l-4 border-[#C9A227] pl-5 mb-8"
+                        class="mb-8 border-l-4 border-[#C9A227] pl-5 text-2xl font-bold text-brand-ink sm:text-3xl"
                     >
                         Misi
                     </h2>
                     <div class="space-y-6 text-lg">
                         <div>
-                            <h4 class="font-bold text-brand-ink mb-2">
+                            <h4 class="mb-2 font-bold text-brand-ink">
                                 01 — Integrasi Keilmuan
                             </h4>
-                            <p class="text-brand-ink/80 leading-relaxed">
+                            <p class="leading-relaxed text-brand-ink/80">
                                 Menyelenggarakan pendidikan Pendidikan Agama
                                 Islam yang mengintegrasikan ilmu pendidikan dan
                                 ilmu keislaman secara komprehensif.
                             </p>
                         </div>
                         <div>
-                            <h4 class="font-bold text-brand-ink mb-2">
+                            <h4 class="mb-2 font-bold text-brand-ink">
                                 02 — Pengembangan Kompetensi
                             </h4>
-                            <p class="text-brand-ink/80 leading-relaxed">
+                            <p class="leading-relaxed text-brand-ink/80">
                                 Mengembangkan kompetensi mahasiswa dalam bidang
                                 pedagogik, profesional, sosial, dan kepribadian
                                 yang tangguh.
                             </p>
                         </div>
                         <div>
-                            <h4 class="font-bold text-brand-ink mb-2">
+                            <h4 class="mb-2 font-bold text-brand-ink">
                                 03 — Pemanfaatan Teknologi
                             </h4>
-                            <p class="text-brand-ink/80 leading-relaxed">
+                            <p class="leading-relaxed text-brand-ink/80">
                                 Mengembangkan inovasi dan pemanfaatan teknologi
                                 digital dalam pembelajaran serta pendidikan
                                 Islam.
                             </p>
                         </div>
                         <div>
-                            <h4 class="font-bold text-brand-ink mb-2">
+                            <h4 class="mb-2 font-bold text-brand-ink">
                                 04 — Pengabdian & Dakwah
                             </h4>
-                            <p class="text-brand-ink/80 leading-relaxed">
+                            <p class="leading-relaxed text-brand-ink/80">
                                 Mendorong penerapan ilmu melalui aktivitas
                                 pendidikan, penelitian, pengabdian masyarakat,
                                 dan kegiatan dakwah yang bermanfaat luas.
@@ -174,12 +174,12 @@ import PublicLayout from "@/layouts/PublicLayout.vue";
                 <!-- FOKUS KURIKULUM -->
                 <div class="mb-16">
                     <h2
-                        class="text-2xl sm:text-3xl font-bold text-brand-ink border-l-4 border-[#C9A227] pl-5 mb-8"
+                        class="mb-8 border-l-4 border-[#C9A227] pl-5 text-2xl font-bold text-brand-ink sm:text-3xl"
                     >
                         Fokus Kurikulum
                     </h2>
                     <ul
-                        class="list-disc list-outside ml-6 space-y-4 text-brand-ink/80 text-lg leading-relaxed"
+                        class="ml-6 list-outside list-disc space-y-4 text-lg leading-relaxed text-brand-ink/80"
                     >
                         <li>
                             <strong class="text-brand-ink"
@@ -223,12 +223,12 @@ import PublicLayout from "@/layouts/PublicLayout.vue";
                 <!-- CAPAIAN PEMBELAJARAN -->
                 <div class="mb-16">
                     <h2
-                        class="text-2xl sm:text-3xl font-bold text-brand-ink border-l-4 border-[#C9A227] pl-5 mb-8"
+                        class="mb-8 border-l-4 border-[#C9A227] pl-5 text-2xl font-bold text-brand-ink sm:text-3xl"
                     >
                         Capaian Pembelajaran
                     </h2>
                     <ul
-                        class="list-disc list-outside ml-6 space-y-4 text-brand-ink/80 text-lg leading-relaxed"
+                        class="ml-6 list-outside list-disc space-y-4 text-lg leading-relaxed text-brand-ink/80"
                     >
                         <li>
                             <strong class="text-brand-ink">Sikap:</strong>
@@ -256,12 +256,12 @@ import PublicLayout from "@/layouts/PublicLayout.vue";
                 <!-- PROSPEK LULUSAN -->
                 <div class="mb-16">
                     <h2
-                        class="text-2xl sm:text-3xl font-bold text-brand-ink border-l-4 border-[#C9A227] pl-5 mb-8"
+                        class="mb-8 border-l-4 border-[#C9A227] pl-5 text-2xl font-bold text-brand-ink sm:text-3xl"
                     >
                         Prospek Lulusan
                     </h2>
                     <div
-                        class="grid sm:grid-cols-2 gap-4 text-brand-ink/80 text-lg"
+                        class="grid gap-4 text-lg text-brand-ink/80 sm:grid-cols-2"
                     >
                         <div class="flex items-center gap-3">
                             <span class="text-[#C9A227]">—</span> Guru
@@ -294,10 +294,10 @@ import PublicLayout from "@/layouts/PublicLayout.vue";
                 <div
                     class="mt-20 border-t border-brand/10 pt-10 pb-4 text-center"
                 >
-                    <h2 class="text-2xl font-bold text-brand-ink mb-3">
+                    <h2 class="mb-3 text-2xl font-bold text-brand-ink">
                         Ingin Bergabung?
                     </h2>
-                    <p class="text-brand-ink/70 text-lg mb-8">
+                    <p class="mb-8 text-lg text-brand-ink/70">
                         Daftarkan diri Anda sekarang dan jadilah bagian dari
                         generasi pendidik Islam yang profesional.
                     </p>

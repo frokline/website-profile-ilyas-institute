@@ -1,6 +1,6 @@
 <script setup lang="ts">
-import { Head } from "@inertiajs/vue3";
-import PublicLayout from "@/layouts/PublicLayout.vue";
+import { Head } from '@inertiajs/vue3';
+import PublicLayout from '@/layouts/PublicLayout.vue';
 </script>
 
 <template>
@@ -9,7 +9,7 @@ import PublicLayout from "@/layouts/PublicLayout.vue";
     <PublicLayout>
         <!-- 1. HERO SECTION -->
         <section
-            class="relative pt-32 pb-24 lg:pt-48 lg:pb-36 overflow-hidden flex items-center justify-center"
+            class="relative flex items-center justify-center overflow-hidden pt-32 pb-24 lg:pt-48 lg:pb-36"
         >
             <!-- Gambar Background -->
             <div class="absolute inset-0 z-0">
@@ -26,9 +26,9 @@ import PublicLayout from "@/layouts/PublicLayout.vue";
 
             <!-- Teks Judul -->
             <div
-                class="relative z-10 mx-auto max-w-7xl px-6 sm:px-8 lg:px-12 text-center"
+                class="relative z-10 mx-auto max-w-7xl px-6 text-center sm:px-8 lg:px-12"
             >
-                <div class="inline-flex items-center gap-2 mb-4">
+                <div class="mb-4 inline-flex items-center gap-2">
                     <span class="h-0.5 w-8 bg-[#C9A227]"></span>
                     <span
                         class="text-xs font-bold tracking-[0.2em] text-[#C9A227] uppercase drop-shadow-md"
@@ -38,13 +38,13 @@ import PublicLayout from "@/layouts/PublicLayout.vue";
                     <span class="h-0.5 w-8 bg-[#C9A227]"></span>
                 </div>
                 <h1
-                    class="text-4xl font-bold tracking-tight text-white sm:text-5xl lg:text-6xl drop-shadow-xl"
+                    class="text-4xl font-bold tracking-tight text-white drop-shadow-xl sm:text-5xl lg:text-6xl"
                 >
                     Pendidikan Guru<br class="hidden sm:block" />
                     Madrasah Ibtidaiyah
                 </h1>
                 <p
-                    class="mt-6 mx-auto max-w-3xl text-lg text-white/90 leading-relaxed drop-shadow-md"
+                    class="mx-auto mt-6 max-w-3xl text-lg leading-relaxed text-white/90 drop-shadow-md"
                 >
                     Mempelajari ilmu pendidikan dan pembelajaran untuk
                     mempersiapkan calon guru Madrasah Ibtidaiyah yang memiliki
@@ -61,13 +61,13 @@ import PublicLayout from "@/layouts/PublicLayout.vue";
                 <!-- INFORMASI PROGRAM -->
                 <div class="mb-16">
                     <h2
-                        class="text-2xl sm:text-3xl font-bold text-brand-ink border-l-4 border-[#C9A227] pl-5 mb-8"
+                        class="mb-8 border-l-4 border-[#C9A227] pl-5 text-2xl font-bold text-brand-ink sm:text-3xl"
                     >
                         Informasi Program
                     </h2>
-                    <div class="space-y-4 text-brand-ink/80 text-lg">
+                    <div class="space-y-4 text-lg text-brand-ink/80">
                         <div
-                            class="grid grid-cols-1 sm:grid-cols-[200px_1fr] gap-1 sm:gap-6"
+                            class="grid grid-cols-1 gap-1 sm:grid-cols-[200px_1fr] sm:gap-6"
                         >
                             <div class="font-semibold text-brand-ink">
                                 Program Studi
@@ -77,7 +77,7 @@ import PublicLayout from "@/layouts/PublicLayout.vue";
                             </div>
                         </div>
                         <div
-                            class="grid grid-cols-1 sm:grid-cols-[200px_1fr] gap-1 sm:gap-6"
+                            class="grid grid-cols-1 gap-1 sm:grid-cols-[200px_1fr] sm:gap-6"
                         >
                             <div class="font-semibold text-brand-ink">
                                 Gelar Akademik
@@ -85,7 +85,7 @@ import PublicLayout from "@/layouts/PublicLayout.vue";
                             <div>: Sarjana Pendidikan (S.Pd.)</div>
                         </div>
                         <div
-                            class="grid grid-cols-1 sm:grid-cols-[200px_1fr] gap-1 sm:gap-6"
+                            class="grid grid-cols-1 gap-1 sm:grid-cols-[200px_1fr] sm:gap-6"
                         >
                             <div class="font-semibold text-brand-ink">
                                 Bidang Keilmuan
@@ -101,12 +101,12 @@ import PublicLayout from "@/layouts/PublicLayout.vue";
                 <!-- TENTANG & VISI MISI -->
                 <div class="mb-16">
                     <h2
-                        class="text-2xl sm:text-3xl font-bold text-brand-ink border-l-4 border-[#C9A227] pl-5 mb-8"
+                        class="mb-8 border-l-4 border-[#C9A227] pl-5 text-2xl font-bold text-brand-ink sm:text-3xl"
                     >
                         Tentang Program Studi
                     </h2>
                     <div
-                        class="space-y-4 text-brand-ink/80 text-lg leading-relaxed mb-8"
+                        class="mb-8 space-y-4 text-lg leading-relaxed text-brand-ink/80"
                     >
                         <p>
                             Program Studi
@@ -145,11 +145,11 @@ import PublicLayout from "@/layouts/PublicLayout.vue";
                     </div>
 
                     <h2
-                        class="text-2xl sm:text-3xl font-bold text-brand-ink border-l-4 border-[#C9A227] pl-5 mb-8"
+                        class="mb-8 border-l-4 border-[#C9A227] pl-5 text-2xl font-bold text-brand-ink sm:text-3xl"
                     >
                         Visi
                     </h2>
-                    <p class="text-brand-ink/80 text-lg leading-relaxed mb-4">
+                    <p class="mb-4 text-lg leading-relaxed text-brand-ink/80">
                         Menjadi program studi yang unggul dalam pendidikan guru
                         Madrasah Ibtidaiyah serta menghasilkan lulusan yang
                         memiliki kompetensi pedagogik, profesional, berakhlak
@@ -157,7 +157,7 @@ import PublicLayout from "@/layouts/PublicLayout.vue";
                         manfaat bagi masyarakat.
                     </p>
                     <p
-                        class="text-brand-ink/70 text-base leading-relaxed italic mb-8"
+                        class="mb-8 text-base leading-relaxed text-brand-ink/70 italic"
                     >
                         * Visi ini menekankan bahwa lulusan PGMI tidak hanya
                         dipersiapkan untuk memahami teori pendidikan, tetapi
@@ -166,16 +166,16 @@ import PublicLayout from "@/layouts/PublicLayout.vue";
                     </p>
 
                     <h2
-                        class="text-2xl sm:text-3xl font-bold text-brand-ink border-l-4 border-[#C9A227] pl-5 mb-8"
+                        class="mb-8 border-l-4 border-[#C9A227] pl-5 text-2xl font-bold text-brand-ink sm:text-3xl"
                     >
                         Misi
                     </h2>
                     <div class="space-y-6 text-lg">
                         <div>
-                            <h4 class="font-bold text-brand-ink mb-2">
+                            <h4 class="mb-2 font-bold text-brand-ink">
                                 01 — Mengembangkan Kompetensi Pendidikan
                             </h4>
-                            <p class="text-brand-ink/80 leading-relaxed">
+                            <p class="leading-relaxed text-brand-ink/80">
                                 Membantu mahasiswa memahami dasar-dasar
                                 pendidikan, perkembangan peserta didik, strategi
                                 pembelajaran, pengelolaan kelas, serta berbagai
@@ -184,10 +184,10 @@ import PublicLayout from "@/layouts/PublicLayout.vue";
                             </p>
                         </div>
                         <div>
-                            <h4 class="font-bold text-brand-ink mb-2">
+                            <h4 class="mb-2 font-bold text-brand-ink">
                                 02 — Meningkatkan Kemampuan Mengajar
                             </h4>
-                            <p class="text-brand-ink/80 leading-relaxed">
+                            <p class="leading-relaxed text-brand-ink/80">
                                 Mempersiapkan mahasiswa agar mampu merancang,
                                 melaksanakan, dan mengevaluasi pembelajaran yang
                                 sesuai dengan karakteristik peserta didik pada
@@ -195,10 +195,10 @@ import PublicLayout from "@/layouts/PublicLayout.vue";
                             </p>
                         </div>
                         <div>
-                            <h4 class="font-bold text-brand-ink mb-2">
+                            <h4 class="mb-2 font-bold text-brand-ink">
                                 03 — Mengintegrasikan Nilai-Nilai Keislaman
                             </h4>
-                            <p class="text-brand-ink/80 leading-relaxed">
+                            <p class="leading-relaxed text-brand-ink/80">
                                 Mengembangkan pembelajaran yang menggabungkan
                                 ilmu pendidikan dengan nilai-nilai Islam
                                 sehingga proses pendidikan dapat mendukung
@@ -206,10 +206,10 @@ import PublicLayout from "@/layouts/PublicLayout.vue";
                             </p>
                         </div>
                         <div>
-                            <h4 class="font-bold text-brand-ink mb-2">
+                            <h4 class="mb-2 font-bold text-brand-ink">
                                 04 — Memanfaatkan Teknologi dalam Pendidikan
                             </h4>
-                            <p class="text-brand-ink/80 leading-relaxed">
+                            <p class="leading-relaxed text-brand-ink/80">
                                 Mendorong mahasiswa untuk memanfaatkan teknologi
                                 dalam proses pembelajaran, penyusunan materi,
                                 pengembangan media pendidikan, serta pengelolaan
@@ -217,10 +217,10 @@ import PublicLayout from "@/layouts/PublicLayout.vue";
                             </p>
                         </div>
                         <div>
-                            <h4 class="font-bold text-brand-ink mb-2">
+                            <h4 class="mb-2 font-bold text-brand-ink">
                                 05 — Mengembangkan Penelitian dan Pengabdian
                             </h4>
-                            <p class="text-brand-ink/80 leading-relaxed">
+                            <p class="leading-relaxed text-brand-ink/80">
                                 Mendorong mahasiswa untuk melakukan kajian dan
                                 penelitian di bidang pendidikan dasar serta
                                 berkontribusi melalui kegiatan pengabdian yang
@@ -233,12 +233,12 @@ import PublicLayout from "@/layouts/PublicLayout.vue";
                 <!-- FOKUS KURIKULUM -->
                 <div class="mb-16">
                     <h2
-                        class="text-2xl sm:text-3xl font-bold text-brand-ink border-l-4 border-[#C9A227] pl-5 mb-8"
+                        class="mb-8 border-l-4 border-[#C9A227] pl-5 text-2xl font-bold text-brand-ink sm:text-3xl"
                     >
                         Fokus Kurikulum
                     </h2>
                     <ul
-                        class="list-decimal list-outside ml-6 space-y-4 text-brand-ink/80 text-lg leading-relaxed"
+                        class="ml-6 list-outside list-decimal space-y-4 text-lg leading-relaxed text-brand-ink/80"
                     >
                         <li>
                             <strong class="text-brand-ink"
@@ -320,12 +320,12 @@ import PublicLayout from "@/layouts/PublicLayout.vue";
                 <!-- CAPAIAN PEMBELAJARAN -->
                 <div class="mb-16">
                     <h2
-                        class="text-2xl sm:text-3xl font-bold text-brand-ink border-l-4 border-[#C9A227] pl-5 mb-8"
+                        class="mb-8 border-l-4 border-[#C9A227] pl-5 text-2xl font-bold text-brand-ink sm:text-3xl"
                     >
                         Capaian Pembelajaran
                     </h2>
                     <ul
-                        class="list-disc list-outside ml-6 space-y-4 text-brand-ink/80 text-lg leading-relaxed"
+                        class="ml-6 list-outside list-disc space-y-4 text-lg leading-relaxed text-brand-ink/80"
                     >
                         <li>
                             <strong class="text-brand-ink">Sikap:</strong>
@@ -360,12 +360,12 @@ import PublicLayout from "@/layouts/PublicLayout.vue";
                 <!-- PROSPEK LULUSAN -->
                 <div class="mb-16">
                     <h2
-                        class="text-2xl sm:text-3xl font-bold text-brand-ink border-l-4 border-[#C9A227] pl-5 mb-8"
+                        class="mb-8 border-l-4 border-[#C9A227] pl-5 text-2xl font-bold text-brand-ink sm:text-3xl"
                     >
                         Prospek Lulusan
                     </h2>
                     <ul
-                        class="list-disc list-outside ml-6 space-y-4 text-brand-ink/80 text-lg leading-relaxed"
+                        class="ml-6 list-outside list-disc space-y-4 text-lg leading-relaxed text-brand-ink/80"
                     >
                         <li>
                             <strong class="text-brand-ink"
@@ -431,10 +431,10 @@ import PublicLayout from "@/layouts/PublicLayout.vue";
                 <div
                     class="mt-20 border-t border-brand/10 pt-10 pb-4 text-center"
                 >
-                    <h2 class="text-2xl font-bold text-brand-ink mb-3">
+                    <h2 class="mb-3 text-2xl font-bold text-brand-ink">
                         Ingin Bergabung?
                     </h2>
-                    <p class="text-brand-ink/70 text-lg mb-8">
+                    <p class="mb-8 text-lg text-brand-ink/70">
                         Daftarkan diri Anda sekarang dan jadilah bagian dari
                         generasi pendidik Islam yang profesional.
                     </p>
